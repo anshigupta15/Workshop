@@ -4,8 +4,10 @@
 
 # Table of Contents
 
-1.<span style="color:#9CDAF1;">Word up</span> 
-Inception of Open-Source EDA , Open LANE
+1.<span style="color:#9CDAF1;">Word up</span> Inception of Open-Source EDA , Open LANE
+Font
+<font color="red">Status: **Not yet implemented**</font>
+<span style"color: red;">text</span> 
 
 
 
