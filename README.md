@@ -212,7 +212,7 @@ Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that
  
  Labs
  
- + <a name="second-content-2"> Chip Floor Planning Considerations Library Binding and Placement
+ + <a name="second-content-2"> Library Binding and Placement
  
  1. Placement and Routing
  
