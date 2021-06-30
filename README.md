@@ -6,6 +6,10 @@
 
 1.[Inception of open-source EDA,Open LANE and Sky130 PDK](#anshi)
 
+ + How to Talk to Computers
+     + [Introducion to QFN-48 Package, chips, pads, core, die and IPs](#defines)
+     + [Introduction to RISC-V](#defines)
+     + [From Sotware Applicatins to Hardware](#defines)
 
 
 
@@ -65,11 +69,8 @@
 
 
 
-dff
 
 
-
-#Inception of open-source EDA,Open LANE and Sky130 PDK
 
 
 
