@@ -20,8 +20,16 @@
     + [Open LANE Directory Structure in Detail](#first-content-7)
     + [Design Preparation Step](#defines)
     + [Review Files After Design Prep and RUN Synthesis](#defines)
-    + [Open LANE Project Git Link Description](#defines)
     + [Seps to characterize Synthesis Results](#defines)
+
+2.[Good FloorPlan vs BadFloorPlan and introduction to library cells](#day2)
+
+   + [Chip Floor Planning Considerations](#second-content-1)
+   + [Library Binding and Placement](#second-cotent-2)
+   + [Cell Design and Characterizaton Flows](#seccond-content-3)
+   + [General Timing Charaterization Parameters](#scond-content-4)
+
+
     
 
 # <a name="first-day1"></a>Inception of open-source EDA,Open LANE and Sky130 PDK
@@ -121,7 +129,30 @@ Magic and Netgen ar used by LVS
  
  ![image](https://user-images.githubusercontent.com/86367130/123966857-6a51ba80-d9d3-11eb-879e-097cd9978e8b.png)
 
+# <a name="#day-2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
+ 1. Utilization factor:
+ 
+        If for example,the following logic is taken:
+ 
+ ![Capture](https://user-images.githubusercontent.com/86367130/123980231-00d7a900-d9df-11eb-9b10-48618fefc413.PNG)
+ 
+ If the area of the single unit is 1sq. unit,then if all the gatesare clubbed together then the total minumum area of the Netist will be 4sq. units.
+ If the netlist occupies 100 percent area of the core then the Utilization Factor will be 100 percent.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/123981298-dafed400-d9df-11eb-9331-59675e44d954.png)
+ If Utilization Factor is 1, then the core is completly occupied and any extra cells cannot be accomodated in the core area.Ideally ,utilization factor should 0.5 or 0.6.
+ 
+ 
+ 2.Aspect Ratio:
+     It is the ratio of height and width of the core.
+ 
+ If the aspect ratio is 1 , then chip is square-shaped otherwise it is of rectangle shape.
+ 
+ 3.Define Location of Pre-Placed Cells:
+      Pre-Placed Cells
+      
+
  
     
 
