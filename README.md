@@ -7,9 +7,9 @@
 1.[Inception of open-source EDA,Open LANE and Sky130 PDK](#first-day1)
 
  + How to Talk to Computers
-     + [Introducion to QFN-48 Package, chips, pads, core, die and IPs](#defines)
-     + [Introduction to RISC-V](#defines)
-     + [From Sotware Applicatins to Hardware](#defines)
+     + [Introducion to QFN-48 Package, chips, pads, core, die and IPs](#first-content-1)
+     + [Introduction to RISC-V](#first-content-2)
+     + [From Sotware Applicatins to Hardware](#first-content-3)
  
  + SOC Design and Open LANE
      + [Inroduction to all components of open-source digital asic design](#defines)
