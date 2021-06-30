@@ -200,6 +200,17 @@ Magic and Netgen ar used by LVS
 6. Pin Placement
  
  The connectivity information between gates is coded using VHDL/Verilog Code known as Netlist.
+ Pins are placed between the area of Core and Die. The ordering of the Ports are random placed near to the Gates they are connected to.
+ Front end team decides the Netlist and back end team decides Pin Placement.
+ Clock drives lots of Flip-FLop So their pin size should be large for least resistance.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124011498-b6b1f000-d9fd-11eb-811b-688ae2d4f5d6.png)
+
+Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that Automated Placement and Routing Tool does not place any cell in the area.
+ 
+ Labs
+ 
+ 
  
  
 
