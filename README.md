@@ -4,7 +4,7 @@
 
 # Table of Contents
 
-1. Inception of Open-Source EDA , Open LANE
+1.<span style="color:orange;">Word up</span> Inception of Open-Source EDA , Open LANE
 
 
 
