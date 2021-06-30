@@ -25,7 +25,7 @@
 2.[Good FloorPlan vs BadFloorPlan and introduction to library cells](#day2)
 
    + [Chip Floor Planning Considerations](#second-content-1)
-   + [Library Binding and Placement](#second-cotent-2)
+   + [Library Binding and Placement](#second-content-2)
    + [Cell Design and Characterizaton Flows](#seccond-content-3)
    + [General Timing Charaterization Parameters](#scond-content-4)
 
@@ -212,7 +212,7 @@ Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that
  
  Labs
  
- + <a name="second-content-2"> Library Binding and Placement
+ + <a name="second-content-2"> Chip Floor Planning Considerations Library Binding and Placement
  
  1. Placement and Routing
  
