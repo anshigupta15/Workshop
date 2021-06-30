@@ -12,12 +12,11 @@
      + [From Sotware Applicatins to Hardware](#first-content-3)
  
  + SOC Design and Open LANE
-     + [Inroduction to all components of open-source digital asic design](#defines)
-     + [Simplified RTL2GDS Flow](#defines)
-     + [Introduction to Open LANE and Strive Chipsets](#defines)
-     + [Introduction to Open LANE Detailed ASIC Design Flow](#defines)
+     + [Simplified RTL2GDS Flow](#first-content-4)
+     + [Introduction to Open LANE and Strive Chipsets](#first-content-5)
+     + [Introduction to Open LANE Detailed ASIC Design Flow](#first-content-6)
 
-+ Get famiier to Open Source EDA Tools
++ Get famiier to Open Source EDA Tools(#first-day3)
     + [Open LANE Directory Structure in Detail](#defines)
     + [Design Preparation Step](#defines)
     + [Review Files After Design Prep and RUN Synthesis](#defines)
@@ -44,6 +43,83 @@ QFN-48(Quad Flat No-Leads) Package:
 ![from software to hardware](https://user-images.githubusercontent.com/86367130/123951827-d546c580-d9c2-11eb-972e-4febab5c381f.PNG)
 
 The instruction set produced by the compiler is the Instruction Set Architecture or Architecture of the computer. In this case it is RISC-V Architecture.HDL acts as an interface between RISC-V Architecture and hardware.
+
++ <a name="first-content-4"></a>Simplified RTL2GDS Flow
+![image](https://user-images.githubusercontent.com/86367130/123952777-19869580-d9c4-11eb-8cbd-729b0e8aeeda.png)
+
+Synthesis: Converts RTL design to a circuit out of the components from standard cell library(SCL).Standard cells have regular layout. each cell has different views/models.
+For eg: Liberty View-This include power and delay models
+
+Floor and Power Planning: Plan the silicon area and robust power distribution to power the circuits.
+      Chip Floor Planning: Partition the chip die between different system building blocks and place the I\O Pads.
+      Macro-Floor Planning:Dimensions, pin-locations,rows and routing tracks are defined.
+      Power Planning: Power network is constucted where chip is power by multiple Vdd and Groung Pins.These pins ar connected to components through vertical and horizontal metal       straps.These use upper metal layers which are wider and have lower resistance 
+      
+Placement: Place the cells on the floor plan rows, aligned with the sites.Closser cells should be placed adjacent to reduce interconnect delay 
+2 Steps:
+Global Placement- Find optimal posiiton for all cellsand these are not legal so cells may overlap.
+Detailed Placement-The detials obtained from Global Placement are minimally altered
+
+Clock Distributon Network:
+  -To deliver clock to all sequential circuis (eg;FFs)
+  -With minimum skew-Can be ensured by H-Tree or X-tree
+  
+ Routing:Implement interconnect using metal layers.This requires to enquire a valid horizontal and vertical patterns to implement the nets. PDK defies the thickess, pitch, width of the metal layer and also the vias required to connect different metal layers.
+ 
+ A Divide and Conquer Approach is used
+    -Global Routing:Generated the routing guides
+    -Detailed Routing:Used the guide to implement the actual wiring
+    
+ After Routing, Layout is confired through:
+ Design Rule Checking(DRC)-Makes sure that the final Layout adheres to all Design Rules
+ Layout Vs Schematic(LVS):Ensured that the final Layout matched the Gate-Level Netlist
+ 
+ Timing Verification(STA): To ensure all timing constraints are met.
+ 
+ + <a name="first-content-5"></a>Introduction to Open LANE and Strive Chipsets
+ 
+ It is an open source tool
+ 
+ Strive- Familyof open evrything SOCs
+      Open EDA,Open PDK, Open RTL
+      
+ Open Lane -Creates a clean GDSII flow with no human intervention that is, there ar no DRC and LVS violations. Can be used to harden MACROS and chips.
+ 
+ + <a name="first-content-6"></a>Introduction to Open LANE Detailed ASIC Design Flow
+
+![image](https://user-images.githubusercontent.com/86367130/123957764-cc0d2700-d9c9-11eb-8afd-40089d6f0136.png)
+
+Synthesis Exploration-Gives us the analysis of area and delay of the design.
+Design Exploarion -Runs regression testing and comparision of different designs.
+Design For Test:
+    + Scan Insertion
+    + Autmatic Test Pattern generation(ATPG)
+    + Test Patterns Compaction
+    + Fault Coverage
+    + Fault Simulation
+    
+Physical Implementation- Is done through Open ROAD
+Logic Equivalence Check -Done through yosys
+Dealing with Antenna Rules Violations-Metal wires can act as an antenna so their size should be limited. This is ensured by the router.
+    -Bridging- Attaches higher metal layer to intermediary.
+    -Add antenna diodes to leak away the charges provided by SCL
+    
+Magic is used for DRC
+Magic and Netgen ar used by LVS
+    
++ <a name="first-day3"> Get famiier to Open Source EDA Tools
+ 
+ 
+    
+
+
+
+
+ 
+ 
+ 
+    
+
 
 
 
