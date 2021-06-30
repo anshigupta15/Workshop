@@ -16,8 +16,8 @@
      + [Introduction to Open LANE and Strive Chipsets](#first-content-5)
      + [Introduction to Open LANE Detailed ASIC Design Flow](#first-content-6)
 
-+ Get famiier to Open Source EDA Tools(#first-day3)
-    + [Open LANE Directory Structure in Detail](#defines)
++ Get famiier to Open Source EDA Tools
+    + [Open LANE Directory Structure in Detail](#first-content-7)
     + [Design Preparation Step](#defines)
     + [Review Files After Design Prep and RUN Synthesis](#defines)
     + [Open LANE Project Git Link Description](#defines)
