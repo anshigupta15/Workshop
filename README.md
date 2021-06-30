@@ -129,7 +129,7 @@ Magic and Netgen ar used by LVS
  
  ![image](https://user-images.githubusercontent.com/86367130/123966857-6a51ba80-d9d3-11eb-879e-097cd9978e8b.png)
 
-# <a name="#day-2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
+# <a name="#day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
  1. Utilization factor:
  
