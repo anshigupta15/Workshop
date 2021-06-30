@@ -107,7 +107,20 @@ Dealing with Antenna Rules Violations-Metal wires can act as an antenna so their
 Magic is used for DRC
 Magic and Netgen ar used by LVS
     
-+ <a name="first-day3"> Get famiier to Open Source EDA Tools
++ <a name="first-content-7"> Open LANE Directory Structure in Detail
+ 
+ Diretory Structure in 
+ 
+ Invoke OpenLANE
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/123965735-5f4a5a80-d9d2-11eb-8c22-e8473462601d.png)
+
+ interactive- Instead to running the completeflow at once it will run the process step by step
+ 
+ Input all the Packges that are required to run the flow:
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/123966857-6a51ba80-d9d3-11eb-879e-097cd9978e8b.png)
+
  
  
     
