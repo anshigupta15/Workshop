@@ -150,7 +150,24 @@ Magic and Netgen ar used by LVS
  If the aspect ratio is 1 , then chip is square-shaped otherwise it is of rectangle shape.
  
  3.Define Location of Pre-Placed Cells:
-      Pre-Placed Cells
+      Pre-Placed Cells-Are Macros or IPs with a complex logic and can be used multiple times.
+ 
+![image](https://user-images.githubusercontent.com/86367130/123992238-12be4980-d9e9-11eb-9981-ee256779be78.png)
+
+ if we take an example of Logic and cut them in 2 blocks
+ ![image](https://user-images.githubusercontent.com/86367130/123992452-3ed9ca80-d9e9-11eb-87db-75a7ce6ceb42.png)
+ We consider both the blocks as Blaxk boxes which are implemeted differently and the sections are invisible to the Netlist and Ports of the blocks will serve as I/O pins
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/123993441-0d153380-d9ea-11eb-9e42-5ca30bfd8f28.png)
+ 
+ Advantage- It helps in replications of the blocks.
+ 
+ Similarly blocks as memory,clock gating cells can be used multiple times and such cells are pre-placed cells.The arrangement of these IPs is known as Floor Planning.
+ These IPs have user-defined locations and therefore they ae placed before automated placement and  routing and are called as pre-placed cells.
+ Automated placement and routing cells place the remaining cells and pre-placed cells are not touched by the tools.
+ 
+ 
+
       
 
  
