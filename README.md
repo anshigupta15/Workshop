@@ -10,6 +10,20 @@
      + [Introducion to QFN-48 Package, chips, pads, core, die and IPs](#defines)
      + [Introduction to RISC-V](#defines)
      + [From Sotware Applicatins to Hardware](#defines)
+ 
+ + SOC Design and Open LANE
+     + [Inroduction to all components of open-source digital asic design](#defines)
+     + [Simplified RTL2GDS Flow](#defines)
+     + [Introduction to Open LANE and Strive Chipsets](#defines)
+     + [Introduction to Open LANE Detailed ASIC Design Flow](#defines)
+
++ Get famiier to Open Source EDA Tools
+    + [Open LANE Directory Structure in Detail](#defines)
+    + [Design Preparation Step](#defines)
+    + [Review Files After Design Prep and RUN Synthesis](#defines)
+    + [Open LANE Project Git Link Description](#defines)
+    + [Seps to characterize Synthesis Results](#defines)
+    
 
 
 
