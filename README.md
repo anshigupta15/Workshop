@@ -6,7 +6,14 @@
 
 1.<span style="color:#9CDAF1;">Word up</span> Inception of Open-Source EDA , Open LANE
 
-#7DBBE6 hdsdg
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+``
+gy
 
 
 
