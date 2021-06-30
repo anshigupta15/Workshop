@@ -27,6 +27,7 @@
 
 # <a name="first-day1"></a>Inception of open-source EDA,Open LANE and Sky130 PDK
 
++ <a name="first-content-1"></a>Introducion to QFN-48 Package, chips, pads, core, die and IPs
 
 
 
