@@ -29,6 +29,30 @@
 
 + <a name="first-content-1"></a>Introducion to QFN-48 Package, chips, pads, core, die and IPs
 
+QFN-48(Quad Flat No-Leads) Package:
+     It consists of 48 pins with 7mm * 7mm size with the pins cnnected to the chip placed inside the package.
+     Pads-Send the signals inside and outside the chip through pads.
+     Chip- It is the place where all the digital Logic is fabricated with a combination of various gates.
+     1.Foundary IPs(Intellectual Property)- Some amount intelligence techniques are used to build them
+     2.Macros-A Pure Digita Logic
+     
++ <a name="first-content-2"></a>RISC-V Architecture
+      When an application or C-program is to be run on a Layout, it a first complied in its Assembly Language Program that is a RISC-V Assembly Language and then converted to Machine Language Program in terms of zeros and ones which is then run on a Layout.
+      This RISC-V specification is implemented using a RTL Code for eg: picorv32 cpu core.
+
++ <a name="first-content-3"></a>From Software TO Hardware
+![from software to hardware](https://user-images.githubusercontent.com/86367130/123951827-d546c580-d9c2-11eb-972e-4febab5c381f.PNG)
+
+The instruction set produced by the compiler is the Instruction Set Architecture or Architecture of the computer. In this case it is RISC-V Architecture.HDL acts as an interface between RISC-V Architecture and hardware.
+
+
+
+
+
+
+
+
+
 
 
 
