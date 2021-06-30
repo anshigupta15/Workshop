@@ -131,6 +131,8 @@ Magic and Netgen ar used by LVS
 
 # <a name="day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
++ <a name="second-content-1"> Chip Floor Planning Considerations
+ 
  1. Utilization factor:
  
         If for example,the following logic is taken:
@@ -209,6 +211,10 @@ Magic and Netgen ar used by LVS
 Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that Automated Placement and Routing Tool does not place any cell in the area.
  
  Labs
+ 
+ + <a name="second-content-2"> Library Binding and Placement
+ 
+ 1. Placement and Routing
  
  
  
