@@ -215,7 +215,9 @@ Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that
  + <a name="second-content-2"> Library Binding and Placement
  
  1. Placement and Routing
- 
+   
+ Step-1 Bind the Netlist with Physical cells
+ The shapes of the gates in real are square or rectangular boxes and the library has all the gates with timing information of the gates.
  
  
  
