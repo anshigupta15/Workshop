@@ -217,7 +217,16 @@ Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that
  1. Placement and Routing
    
  Step-1 Bind the Netlist with Physical cells
- The shapes of the gates in real are square or rectangular boxes and the library has all the gates with timing information of the gates.
+ The shapes of the gates in real are square or rectangular boxes and the library has all the gates with timing information of the gates. After deciding proper shapes and sizes.
+ 
+ Step-2 Place the Netlist on the Floor Plan
+ 
+ The gates are placed near to their input-output port connections.
+ Sometimes they are at a higher distance
+ 
+ Estimate the Wire length and capacitances. To maintain the signal integrity we will insert ectra repeaters or bufferes which recondition the original signal with loss of area.
+ 
+ Based on the timing analysis and slew we see if there is a need of repeater or not.
  
  
  
