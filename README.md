@@ -166,6 +166,56 @@ Magic and Netgen ar used by LVS
  These IPs have user-defined locations and therefore they ae placed before automated placement and  routing and are called as pre-placed cells.
  Automated placement and routing cells place the remaining cells and pre-placed cells are not touched by the tools.
  
+ 4. de-Couping Capacitors- Pre-Placed cells are surrounded by the De-Coupling Capacitors. So, when there is a switch in the Logic level, these capacitors act as charging /discarging element for the same. From Logic 0-1, they get charged and from 1-0 they get discharged.
+ 
+ When the power supply through there is a drop in the wire. This voltage drop can be modeled as combination to inductors and resistances across the wire.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124006427-df36eb80-d9f7-11eb-987a-f1c5bab9c5fb.png)
+ 
+ If Logic lies between Vih and Voh, then it is treated as Logic-1 
+ If Logic Lies between Vil and Vol, then it is treated as Logic-0
+ Other the region is undefined.The voltage level should not be in this region.
+ 
+ So, the Logic High or Low should be within the Noise Margin for correct detection.
+ We can solve the problem of voltage drop across wire with the help of De-Couping Capcitors which are charged to the supply voltage and De-Couples the main circuit from the main supply.
+ 
+  ![image](https://user-images.githubusercontent.com/86367130/124007675-34bfc800-d9f9-11eb-80e4-987a0244ef27.png)
+ 
+ When there is a switching activity , the de-coupling capacitor looses its charge to the circuit and rest of the time it uses to replenish its charge.
+ 
+5.Power Planning
+   If the Macros are repeated multiple times , then there will be current demand for each Macro.We musst make sure that signal does not loose its integrity while travelling from Driver to Load. So, the Line should get necessary supply from the power.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124008300-e828bc80-d9f9-11eb-97e6-f3a05b0c61ec.png)
+ 
+ Now if we assume the line to be 16-bit bus and is connected to the inverter.Then the Logics will change their state and the process of discharging they will witness a bump in Ground tap Point. If the size of the bump exceeds the Noise Margin Level, then Logic might go wrong.Alternatively, in case of charging Voltage Droop can be observed.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124009057-c3811480-d9fa-11eb-9f33-8d8a3c5f6631.png)
+ 
+ SO, the solution is to have multiple power supply sources.Having multiple vertical and horizontal lines for supply voltage and ground connections across the core.
+ 
+![image](https://user-images.githubusercontent.com/86367130/124009597-6d60a100-d9fb-11eb-8891-e1d026b897aa.png)
+ 
+ 
+6. Pin Placement
+ 
+ The connectivity information between gates is coded using VHDL/Verilog Code known as Netlist.
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+
+ 
+ 
  
 
       
