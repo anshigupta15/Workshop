@@ -4,15 +4,10 @@
 
 # Table of Contents
 
-```diff
-1.Inception of Open-Source EDA , Open LANE
-+ ygdg
-<span style="color:#9CDAF1;">Word up</span> 
+1.<span style="color:#9CDAF1;">Word up</span> 
+Inception of Open-Source EDA , Open LANE
 
 
-- text in red
-+ text in green
-! text in orange
 
 
 
