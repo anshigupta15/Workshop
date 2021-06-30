@@ -4,7 +4,7 @@
 
 # Table of Contents
 
-1.[Inception of open-source EDA,Open LANE and Sky130 PDK](#anshi)
+1.[Inception of open-source EDA,Open LANE and Sky130 PDK](#Inception of open-source EDA,Open LANE and Sky130 PDK)
 
  + How to Talk to Computers
      + [Introducion to QFN-48 Package, chips, pads, core, die and IPs](#defines)
