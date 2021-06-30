@@ -5,15 +5,9 @@
 # Table of Contents
 
 1.<span style="color:#9CDAF1">Word up</span> Inception of Open-Source EDA , Open LANE
-
-
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-
-<div class="bg-yellow mb-2">
-  .text-gray-dark on .bg-yellow
-</div>
-Anshi
+<style>H1{color:Blue;}</style>
+<style>H2{color:DarkOrange;}</style>
+<style>p{color:Black;}</style
 
 
 
