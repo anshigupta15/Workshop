@@ -314,13 +314,26 @@ This isolates the two transistors.
  
   ![image](https://user-images.githubusercontent.com/86367130/124151217-efaa9d00-daaf-11eb-9cfa-b21be0cdf5eb.png)
           
-          Now, silicon nitride is stripped out using **hot phosphoric acid**
+          Now, silicon nitride is stripped out using hot phosphoric acid
 
       
-           
+      3. Create N-Well and P-Well Formation:
+               
+                      A layer of photoresist is deposited.
+                      Mask is placed above it and the setup is exposed to UV Light and area is washed away which is not exposed to UV Light.Next remove the mask and make P-Well
+                      with Boron and diffused into substarte with ion Implantation at 200keV.
  
-      
-     3. Create N-Well and P-Well Formation:
+   ![image](https://user-images.githubusercontent.com/86367130/124166885-06a5bb00-dac1-11eb-8d76-04e3f6dc2425.png)
+ 
+ Similary a **N-Well** is formed with **Phosphorus** with ion-plantation.Energy required is high for Phosphorus implantation as they are heavier that is around 400keV.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124167114-4c628380-dac1-11eb-8c70-ac1731a9b51e.png)
+ 
+ Next step is to take the structure into driving furnace at high temperature about 1100 degrees centigrades about 4-6 hrs to drive-in the atoms to form clear wells.This process is called **Twin-Tub** process.
+
+ 
+ 
+
          
 
 
