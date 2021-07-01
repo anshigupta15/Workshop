@@ -290,11 +290,38 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  
 # <a name="day3"> Design Library Cell Using Magic Layout and ngSpice characterization
  
- + <a name="t-con-1"> Labs for CMOS inverter Ngspice simulation
+ + **<a name="t-con-1"> Labs for CMOS inverter Ngspice simulation**
  
- + <a name="t-con-2"> Inception of Layout CMOS Fabrication Process
+ + **<a name="t-con-2"> Inception of Layout CMOS Fabrication Process**
  
  **16-Mask CMOS Process**
+ 
+    1. Selecting a Substrate:
+           p-type substarte- Has high resistivity (5-50 ohms), Doping Level(10^15 per cm3) and orientation(100)
+ 
+    2.Create an active-region for Transistors
+           Create 40nm layer of Sio2 and 80nm layer of Si3N4 and 1um layer of photoresist.
+           The areas covered by **mask-1** are protected and rest are exposed to the chemical reactions and extra photoresist is washed away.
+           Remove the mask.
+           The exposed areas which are not under the photoresist are exposed to etching. So, silicon nitride is etched off.
+           Remove the photoresist
+           Place the setup in the oxidation furnace and silicon nitride protects some areas for extra oxidation.This process is called as **LOCOS** (Local Oxidation of        Silicon) and Bird's beak are formed.
+ 
+This isolates the two transistors.
+ 
+  ![image](https://user-images.githubusercontent.com/86367130/124151217-efaa9d00-daaf-11eb-9cfa-b21be0cdf5eb.png)
+          
+          Now, silicon nitride is stripped out using **hot phosphoric acid**
+
+      
+           
+ ![image](https://user-images.githubusercontent.com/86367130/124148898-bec96880-daad-11eb-9ffc-e6ab6579b274.png)
+      
+     3. Create N-Well and P-Well Formation:
+         
+
+
+           
  
  
  
