@@ -360,7 +360,14 @@ This isolates the two transistors.
  
       6. Source and Drain Formation-
  
+                Screen oxide is added to prevent channeling during implants.
+                Mask-9- The structure is exposed with As with 75keV and side-wall spacers keep the LDD intact.
+                Mask-10-P+ implant with B as 50keV.And keep the structure in high temperature furnace at 1000 deg celcius that is annealing.
  
+ ![image](https://user-images.githubusercontent.com/86367130/124176166-2c848d00-dacc-11eb-8e2f-6e89a89a8694.png)
+
+      7. Steps to form contacts and interconnects(local)
+                
  
  
  
