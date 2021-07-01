@@ -291,6 +291,10 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  
  + <a name="t-con-2"> Inception of Layout CMOS Fabrication Process
  
+ **16-Mask CMOS Process**
+ 
+ 
+ 
  + <a name="t-con-3"> Sky130 Tech File Labs
  
  
