@@ -228,6 +228,9 @@ Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that
  
  Based on the timing analysis and slew we see if there is a need of repeater or not.
  
+ When the cells are placed are side to side then they seem to have abutted with minimum delay.
+ 
+ 
  
  
 
