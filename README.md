@@ -250,17 +250,17 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
      Extract the parasitics of the Layout and characterize it in terms of timing.
      
     3.Characteriztion Flow
- 
-      Read the spice model files 
-      Read the extracted SpiceNetlist
-      Recognize the behavior of Buffer
-      Read the sub-circuits of the Logic
-      Attach the necessary Power Source
-      Timing, Noise and Power Characterization 
-      Apply the stimulus
-      Necessary output capacitances
-      Provide necessary simuation command
-      Feed -in all the these configurations to the characterizatio software called GUNA which will generate timing, noise and Power models.
+ Steps for the Characterization
+      1.Read the spice model files 
+      2.Read the extracted SpiceNetlist
+      3.Recognize the behavior of Buffer
+      4.Read the sub-circuits of the Logic
+      5.Attach the necessary Power Source
+      6.Timing, Noise and Power Characterization 
+      7.Apply the stimulus
+      8.Necessary output capacitances
+      9.Provide necessary simuation command
+      10.Feed -in all the these configurations to the characterizatio software called GUNA which will generate timing, noise and Power models.
  
 3.Output of the cell used by EDA tools
  We get outputs in the form of :
@@ -268,6 +268,32 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  
  + <a name="second-content-4"> General Timing Characterization Parameters
  
+ Timing Threshold Definitions
+ 
+ 1.slew_low_rise_thr : Threshold of the waveform  towards the lower side of the power supply rising from low to high .Typical values are from 20-30 percent.
+ 2.slew_high_rise_thr:Threshold of the waveform  towards the upper side of the power supply rising from low to high .Typical values are from 20-30 percent.
+ 3.slew_low_fall_thr:  Lower threshold for falling waveform.
+ 4.slew_high_fall_thr: Upper threshold for falling waveform.
+  
+ These values are used to calculate slew of the waveform.
+ 
+in_rise_thr,in_fall_thr:Related to the input waveforms.50 percent point are taken
+ 
+ out_rise_th,out_fall_thr:related to output waveform. 50 percent are taken
+ 
+Propagation Delay- Take the difference of the 50 percent to calculate the delay.
+ Negative delay can be observed if we shift the threshold values.
+ And if the distance between 2 units is high it might  result in higher slew resulting in negative delay.
+ 
+ Transition Time:
+ 
+ For the slew rising waveform substarct the low from high timing threshold. 
+ For the slew falling waveform substarct the high from low timing threshold. 
+ 
+ 
+ 
+ 
+   
  
 
 
