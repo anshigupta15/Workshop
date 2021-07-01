@@ -230,7 +230,17 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  Extensio Over ctive Area-3 Lambda
  Poly to Active Spacing-1 or 2 Lambda
  
+ User-Defined Specs
+ Cell Height: It is decided by the separation of power and ground rails.
+ Cell Width: It depends on drive strength. If cell has drive strength of 1 it will be difficult to drive short whereas if they have drive strength of 10 they can drive more    longer wires.
+ Supply Voltage- Top Level designer decides the supply voltage.
+ Metal layers,Pin Locations and drawn gatelength
+ 
  2. Design the cell
+ Design of the cell requires 3 different steps:
+    1.Circuit Design-
+    2.Layout Design
+    3.Characteriztion
  
  3.Output of the cell used by EDA tools
  
