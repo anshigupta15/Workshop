@@ -188,7 +188,11 @@ Magic and Netgen ar used by LVS
  
  Review the FloorPlan in Magic
  
+ ![image](https://user-images.githubusercontent.com/86367130/124109678-0be51480-da85-11eb-83c3-ff81362557c9.png)
+ 
  ![image](https://user-images.githubusercontent.com/86367130/124106660-0b974a00-da82-11eb-9591-04ab590a8af4.png)
+ 
+ 
 
 
  
