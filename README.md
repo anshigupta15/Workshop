@@ -271,7 +271,7 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  Timing Threshold Definitions
  
  1.slew_low_rise_thr : Threshold of the waveform  towards the lower side of the power supply rising from low to high .Typical values are from 20-30 percent.
- 2.slew_high_rise_thr:Threshold of the waveform  towards the upper side of the power supply rising from low to high .Typical values are from 20-30 percent.
+ 2.slew_high_rise_thr:Threshold of the waveform  towards the upper side of the power supply rising from low to high .Typical values are from 20-30 percent
  3.slew_low_fall_thr:  Lower threshold for falling waveform.
  4.slew_high_fall_thr: Upper threshold for falling waveform.
   
