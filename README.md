@@ -232,17 +232,42 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  
  User-Defined Specs
  Cell Height: It is decided by the separation of power and ground rails.
- Cell Width: It depends on drive strength. If cell has drive strength of 1 it will be difficult to drive short whereas if they have drive strength of 10 they can drive more    longer wires.
+ Cell Width: It depends on drive strength. If cell has drive strength of 1 it will be difficult to drive short whereas if they have drive strength of 10 they can drive more       longer wires.
  Supply Voltage- Top Level designer decides the supply voltage.
  Metal layers,Pin Locations and drawn gatelength
  
  2. Design the cell
- Design of the cell requires 3 different steps:
-    1.Circuit Design-
-    2.Layout Design
-    3.Characteriztion
+    Design of the cell requires 3 different steps:
  
- 3.Output of the cell used by EDA tools
+    1.Circuit Design-It is based on Spice Simulations. By knowing swithcing threshold value we can design our p-mos and n-mos gates and decide the value of W/L.
+ 
+    2.Layout Design-Element the logic in the form p-mos and n-mos and get their respective Network Graphs.
+     Euler's Path-Path which is traced only once.Based on the Euler's Path a Stick Diagram is drawn.
+     Convert the Stick Diagram to the Layout adhering to the DRC rules given by the foundary.
+     GDSII is the typical Layout file
+     LEF-Defines width and height of the cell
+     Extractes Spice Netlist (.cir)- Contains resistances and capacitances of each and every element of layout
+     Extract the parasitics of the Layout and characterize it in terms of timing.
+     
+    3.Characteriztion Flow
+ 
+      Read the spice model files 
+      Read the extracted SpiceNetlist
+      Recognize the behavior of Buffer
+      Read the sub-circuits of the Logic
+      Attach the necessary Power Source
+      Timing, Noise and Power Characterization 
+      Apply the stimulus
+      Necessary output capacitances
+      Provide necessary simuation command
+      Feed -in all the these configurations to the characterizatio software called GUNA which will generate timing, noise and Power models.
+ 
+3.Output of the cell used by EDA tools
+ We get outputs in the form of :
+ CDL(Circuit Description language)-
+ 
+ + <a name="second-content-4"> General Timing Characterization Parameters
+ 
  
 
 
