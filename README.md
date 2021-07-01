@@ -6,22 +6,9 @@
 
 1.[Inception of open-source EDA,Open LANE and Sky130 PDK](#first-day1)
 
- + How to Talk to Computers
-     + [Introducion to QFN-48 Package, chips, pads, core, die and IPs](#first-content-1)
-     + [Introduction to RISC-V](#first-content-2)
-     + [From Sotware Applicatins to Hardware](#first-content-3)
- 
- + SOC Design and Open LANE
-     + [Simplified RTL2GDS Flow](#first-content-4)
-     + [Introduction to Open LANE and Strive Chipsets](#first-content-5)
-     + [Introduction to Open LANE Detailed ASIC Design Flow](#first-content-6)
-
-+ Get famiier to Open Source EDA Tools
-    + [Open LANE Directory Structure in Detail](#first-content-7)
-    + [Design Preparation Step](#defines)
-    + [Review Files After Design Prep and RUN Synthesis](#defines)
-    + [Seps to characterize Synthesis Results](#defines)
-
+ + [How to Talk to Computers](#first-content-1)
+ + [SOC Design and Open LANE](#first-content-4)
+    
 2.[Good FloorPlan vs BadFloorPlan and introduction to library cells](#day2)
 
    + [Chip Floor Planning Considerations](#second-content-1)
