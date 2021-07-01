@@ -128,6 +128,25 @@ Magic and Netgen ar used by LVS
  Input all the Packges that are required to run the flow:
  
  ![image](https://user-images.githubusercontent.com/86367130/123966857-6a51ba80-d9d3-11eb-879e-097cd9978e8b.png)
+ 
+ After Design Preparation, we will run the Synthesis:
+ This will execute both yosys and abc pass will be done
+ ![image](https://user-images.githubusercontent.com/86367130/124074001-759ef780-da60-11eb-9940-a4d7a7bd883d.png)
+ 
+ Synthesis Successful-
+ ![image](https://user-images.githubusercontent.com/86367130/124074193-bbf45680-da60-11eb-9fd2-e21536123299.png)
+ 
+ Charaterize Synthesis Results:
+ Number of D Flip-Flops=1613
+ Number of Cells=14876
+ Flop Count of the Design=1613/14876=0.1084 or 10.84 percent
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124074488-2c02dc80-da61-11eb-9339-5a6d0688df99.png)
+
+
+ 
+ 
+
 
 # <a name="day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
@@ -153,6 +172,8 @@ Magic and Netgen ar used by LVS
       Pre-Placed Cells
  
   ![image](https://user-images.githubusercontent.com/86367130/123984897-a5a7b580-d9e2-11eb-95a5-9fdebc370912.png)
+ 
+ 
     
 
  
