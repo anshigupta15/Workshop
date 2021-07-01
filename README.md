@@ -25,7 +25,7 @@
 2.[Good FloorPlan vs BadFloorPlan and introduction to library cells](#day2)
 
    + [Chip Floor Planning Considerations](#second-content-1)
-   + [Library Binding and Placement](#second-content-2)
+   + [Library Binding and Placement](#second-cotent-2)
    + [Cell Design and Characterizaton Flows](#seccond-content-3)
    + [General Timing Charaterization Parameters](#scond-content-4)
 
@@ -131,8 +131,6 @@ Magic and Netgen ar used by LVS
 
 # <a name="day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
-+ <a name="second-content-1"> Chip Floor Planning Considerations
- 
  1. Utilization factor:
  
         If for example,the following logic is taken:
@@ -152,104 +150,10 @@ Magic and Netgen ar used by LVS
  If the aspect ratio is 1 , then chip is square-shaped otherwise it is of rectangle shape.
  
  3.Define Location of Pre-Placed Cells:
-      Pre-Placed Cells-Are Macros or IPs with a complex logic and can be used multiple times.
+      Pre-Placed Cells
  
-![image](https://user-images.githubusercontent.com/86367130/123992238-12be4980-d9e9-11eb-9981-ee256779be78.png)
-
- if we take an example of Logic and cut them in 2 blocks
- ![image](https://user-images.githubusercontent.com/86367130/123992452-3ed9ca80-d9e9-11eb-87db-75a7ce6ceb42.png)
- We consider both the blocks as Blaxk boxes which are implemeted differently and the sections are invisible to the Netlist and Ports of the blocks will serve as I/O pins
- 
- ![image](https://user-images.githubusercontent.com/86367130/123993441-0d153380-d9ea-11eb-9e42-5ca30bfd8f28.png)
- 
- Advantage- It helps in replications of the blocks.
- 
- Similarly blocks as memory,clock gating cells can be used multiple times and such cells are pre-placed cells.The arrangement of these IPs is known as Floor Planning.
- These IPs have user-defined locations and therefore they ae placed before automated placement and  routing and are called as pre-placed cells.
- Automated placement and routing cells place the remaining cells and pre-placed cells are not touched by the tools.
- 
- 4. de-Couping Capacitors- Pre-Placed cells are surrounded by the De-Coupling Capacitors. So, when there is a switch in the Logic level, these capacitors act as charging /discarging element for the same. From Logic 0-1, they get charged and from 1-0 they get discharged.
- 
- When the power supply through there is a drop in the wire. This voltage drop can be modeled as combination to inductors and resistances across the wire.
- 
- ![image](https://user-images.githubusercontent.com/86367130/124006427-df36eb80-d9f7-11eb-987a-f1c5bab9c5fb.png)
- 
- If Logic lies between Vih and Voh, then it is treated as Logic-1 
- If Logic Lies between Vil and Vol, then it is treated as Logic-0
- Other the region is undefined.The voltage level should not be in this region.
- 
- So, the Logic High or Low should be within the Noise Margin for correct detection.
- We can solve the problem of voltage drop across wire with the help of De-Couping Capcitors which are charged to the supply voltage and De-Couples the main circuit from the main supply.
- 
-  ![image](https://user-images.githubusercontent.com/86367130/124007675-34bfc800-d9f9-11eb-80e4-987a0244ef27.png)
- 
- When there is a switching activity , the de-coupling capacitor looses its charge to the circuit and rest of the time it uses to replenish its charge.
- 
-5.Power Planning
-   If the Macros are repeated multiple times , then there will be current demand for each Macro.We musst make sure that signal does not loose its integrity while travelling from Driver to Load. So, the Line should get necessary supply from the power.
- 
- ![image](https://user-images.githubusercontent.com/86367130/124008300-e828bc80-d9f9-11eb-97e6-f3a05b0c61ec.png)
- 
- Now if we assume the line to be 16-bit bus and is connected to the inverter.Then the Logics will change their state and the process of discharging they will witness a bump in Ground tap Point. If the size of the bump exceeds the Noise Margin Level, then Logic might go wrong.Alternatively, in case of charging Voltage Droop can be observed.
- 
- ![image](https://user-images.githubusercontent.com/86367130/124009057-c3811480-d9fa-11eb-9f33-8d8a3c5f6631.png)
- 
- SO, the solution is to have multiple power supply sources.Having multiple vertical and horizontal lines for supply voltage and ground connections across the core.
- 
-![image](https://user-images.githubusercontent.com/86367130/124009597-6d60a100-d9fb-11eb-8891-e1d026b897aa.png)
- 
- 
-6. Pin Placement
- 
- The connectivity information between gates is coded using VHDL/Verilog Code known as Netlist.
- Pins are placed between the area of Core and Die. The ordering of the Ports are random placed near to the Gates they are connected to.
- Front end team decides the Netlist and back end team decides Pin Placement.
- Clock drives lots of Flip-FLop So their pin size should be large for least resistance.
- 
- ![image](https://user-images.githubusercontent.com/86367130/124011498-b6b1f000-d9fd-11eb-811b-688ae2d4f5d6.png)
-
-Logical Cell Placement Blockage- Blocks area between Core and Die to ensure that Automated Placement and Routing Tool does not place any cell in the area.
- 
- Labs
- 
- + <a name="second-content-2"> Library Binding and Placement
- 
- 1. Placement and Routing
-   
- Step-1 Bind the Netlist with Physical cells
- The shapes of the gates in real are square or rectangular boxes and the library has all the gates with timing information of the gates. After deciding proper shapes and sizes.
- 
- Step-2 Place the Netlist on the Floor Plan
- 
- The gates are placed near to their input-output port connections.
- Sometimes they are at a higher distance
- 
- Estimate the Wire length and capacitances. To maintain the signal integrity we will insert ectra repeaters or bufferes which recondition the original signal with loss of area.
- 
- Based on the timing analysis and slew we see if there is a need of repeater or not.
- 
- When the cells are placed are side to side then they seem to have abutted with minimum delay.
- 
- 
- 
- 
-
-
- 
- 
-
-
- 
-
-
- 
- 
-
- 
- 
- 
-
-      
+  ![image](https://user-images.githubusercontent.com/86367130/123984897-a5a7b580-d9e2-11eb-95a5-9fdebc370912.png)
+    
 
  
     
