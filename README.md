@@ -142,6 +142,8 @@ Magic and Netgen ar used by LVS
  Flop Count of the Design=1613/14876=0.1084 or 10.84 percent
  
  ![image](https://user-images.githubusercontent.com/86367130/124074488-2c02dc80-da61-11eb-9339-5a6d0688df99.png)
+ 
+ 
 
 
  
