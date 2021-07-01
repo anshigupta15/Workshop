@@ -367,14 +367,27 @@ This isolates the two transistors.
  ![image](https://user-images.githubusercontent.com/86367130/124176166-2c848d00-dacc-11eb-8e2f-6e89a89a8694.png)
 
       7. Steps to form contacts and interconnects(local)
-                
+                Etch the screen oxide used earlier using HF
+                Deposit Titanium(very low resistivity) on wafer surface using sputtering. The titanium is hit Argon gas and the particles get deposited on the substrate.Then                   create a contact by heating it at about 650-700 deg celcius in N2 ambient for 60 sec resulting in low resistance TiSi2 and TiN deposited on top of it for local communication.
  
- 
- 
- 
- 
+ ![image](https://user-images.githubusercontent.com/86367130/124178225-f3015100-dace-11eb-80d9-13be4e4fc107.png)
 
+      Mask-11 : Is applied and extra TiN is etched with RCA cleaning.
+      
+      8. Higher Level Metal Formation:
+                Planarize the surface with a thick layer of SiO2 doped with P(phophosilicate glass) deposited on wafer surface.It helps to reduce the temperature and CMP(Chemical mechanical Polishing) is done for planarizing the surface.Now, by **Mask-12** we etch out sio2 for contact holes. Then remove the photoresist and deposit a thin 10nm layer of TiN which acts as adhesion layer and followed by Blanket Tungsten Layer and with CMP the structure is planarized.
  
+  ![image](https://user-images.githubusercontent.com/86367130/124179392-6f486400-dad0-11eb-881d-59116e731e23.png)
+
+                Now Al Layer is deposited and it is patterned with Mask-13 and rest Al is plasma etched out.
+                Next higher level metal is formed by depositing Sio2 and CMP done and Mask-14 is used to pattern the same. Next again TiN layer is deposited and W thereafter and Mask-15 is used to make the third level of interconnect.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124179742-de25bd00-dad0-11eb-8c57-385d8f340d08.png)
+                
+                The higher level interconnect is thicker than the lower level.Silicon Nitride is used to protect the chip and Mask-16 is used to open contact holes on this layer.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124180060-483e6200-dad1-11eb-8635-5899af6b847c.png)
+
  
  + <a name="t-con-3"> Sky130 Tech File Labs
  
