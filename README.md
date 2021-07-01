@@ -185,6 +185,11 @@ Magic and Netgen ar used by LVS
  Area=Width*Height=443587.212 square microns
  
  ![image](https://user-images.githubusercontent.com/86367130/124104313-c4a85500-da7f-11eb-84ed-c2b8bd31e66e.png)
+ 
+ Review the FloorPlan in Magic
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124106660-0b974a00-da82-11eb-9591-04ab590a8af4.png)
+
 
  
  
