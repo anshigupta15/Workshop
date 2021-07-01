@@ -296,7 +296,7 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  
  **16-Mask CMOS Process**
  
-    1. Selecting a Substrate:
+    1.Selecting a Substrate:
            p-type substarte- Has high resistivity (5-50 ohms), Doping Level(10^15 per cm3) and orientation(100)
  
     2.Create an active-region for Transistors
@@ -317,7 +317,7 @@ This isolates the two transistors.
           Now, silicon nitride is stripped out using hot phosphoric acid
 
       
-      3. Create N-Well and P-Well Formation:
+     3.Create N-Well and P-Well Formation:
                
                       A layer of photoresist is deposited.
                       Mask is placed above it and the setup is exposed to UV Light and area is washed away which is not exposed to UV Light.Next remove the mask and make P-Well
@@ -327,9 +327,13 @@ This isolates the two transistors.
  
  Similary a **N-Well** is formed with **Phosphorus** with ion-plantation.Energy required is high for Phosphorus implantation as they are heavier that is around 400keV.
  
- ![image](https://user-images.githubusercontent.com/86367130/124167114-4c628380-dac1-11eb-8c70-ac1731a9b51e.png)
+![image](https://user-images.githubusercontent.com/86367130/124168064-43be7d00-dac2-11eb-9c24-05517917ad1e.png)
  
  Next step is to take the structure into driving furnace at high temperature about 1100 degrees centigrades about 4-6 hrs to drive-in the atoms to form clear wells.This process is called **Twin-Tub** process.
+ 
+     4.Formation of Gate
+ 
+ 
 
  
  
