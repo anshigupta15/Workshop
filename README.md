@@ -29,8 +29,11 @@
    + [Cell Design and Characterizaton Flows](#second-content-3)
    + [General Timing Charaterization Parameters](#second-content-4)
 
+3.[Design Library Cell Using Magic Layout and ngspice characterization](#day3)
 
-    
+   +[Labs for CMOS inverter Ngspice simulations](#t-con-1)
+   +[Inception of Layout CMOS Fabrication Process](#t-con-2)
+   +[Sky130 Tech File Labs](#t-con-3)
 
 # <a name="first-day1"></a>Inception of open-source EDA,Open LANE and Sky130 PDK
 
