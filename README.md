@@ -207,13 +207,17 @@ Magic and Netgen ar used by LVS
  2. Buffers are added if the gates are far away from I/O pins which is charaterized by the timing information that is slew which depends on value of capacitance of the wire length .This is to ensure that the signal integrity is maintained.
  3. When the cells are abutted the delay is minimal
  
- Labs for Placement:
+Labs for Placement:
  
 Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and Overflow(If overflow value decreases the design will converge).
  
  ![image](https://user-images.githubusercontent.com/86367130/124114440-32f21500-da8a-11eb-8ee8-abb6d7c70374.png)
  
  ![image](https://user-images.githubusercontent.com/86367130/124114701-7fd5eb80-da8a-11eb-976a-43ca6b8bf98b.png)
+ 
+ + <a name="second-content-3"> Cell Design and Characterization Flows
+ 
+ Standard Cells- They are defined in the libraries.
 
 
  
