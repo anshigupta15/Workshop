@@ -174,6 +174,7 @@ Magic and Netgen ar used by LVS
  
  3.Define Location of Pre-Placed Cells:
       Pre-Placed Cells
+ Logic is divided into blocks so that we can implement a Logic multiple times
  
   ![image](https://user-images.githubusercontent.com/86367130/123984897-a5a7b580-d9e2-11eb-95a5-9fdebc370912.png)
  
@@ -194,7 +195,17 @@ Magic and Netgen ar used by LVS
  
  ![image](https://user-images.githubusercontent.com/86367130/124106660-0b974a00-da82-11eb-9591-04ab590a8af4.png)
  
+ + <a name="second-content-2"> Libarary Binding and Placement
  
+ Placement and Routing
+ 
+ Step-1 Bind the Netlist with Physical Cells
+ Every gate is square and rectangular shaped and the informtion about their dimensions, delay and the required conditions are present in a library. Every gate will be present in different dimensions in the library.
+ 
+ Step-2- Place the Gates on the FloorPlan
+ 1. Gates are placed near to input -output pins.
+ 2. Buffers are added if the gates are far away from I/O pins which is charaterized by the timing information that is slew which depends on value of capacitance of the wire length .This is to ensure that the signal integrity is maintained.
+ 3. When the cells are abutted the delay is minimal
  
  Labs for Placement:
  
