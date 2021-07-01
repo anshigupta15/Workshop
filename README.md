@@ -332,6 +332,19 @@ This isolates the two transistors.
  Next step is to take the structure into driving furnace at high temperature about 1100 degrees centigrades about 4-6 hrs to drive-in the atoms to form clear wells.This process is called **Twin-Tub** process.
  
      4.Formation of Gate
+  
+ Threshold voltage depend on body effect coefficient which in turn depends on Doping conc. and oxide capacitance. These are controlled in fabrication steps to maintain a particular threshold voltage.
+  **Mask-4**- Is used and boron is implanted with low energy of **60keV** just at the surface to attain required doping concentration with depends on threshold voltage.
+   Similarly, **Mask-5** is used As or P on the N-well with low energy just to maintain enough doping level.
+ 
+ The HF can be used to remove the oxide layer and a high quality oxide can re-grown of 10nm thick depending upon the threshold voltage.
+ A Polysilicon layer is deposited of about 0.4um thick and in order to make gate area of less resistance more impurities are doped into of any N-type impurity.
+ **Mask-6**- It is used to draw the gates and reamining areas of Polysilicon can be etched away.
+ 
+   5. Lightly-Doped Drain(LDD) formation-
+ 
+ 
+ 
  
  
 
