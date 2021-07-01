@@ -24,9 +24,9 @@
 
 # <a name="first-day1"></a>Inception of open-source EDA,Open LANE and Sky130 PDK
 
-+ <a name="first-content-1"></a>Introducion to QFN-48 Package, chips, pads, core, die and IPs
++ **<a name="first-content-1"></a>Introducion to QFN-48 Package, chips, pads, core, die and IPs**
 
-QFN-48(Quad Flat No-Leads) Package:
+**QFN-48(Quad Flat No-Leads) Package**:
      It consists of 48 pins with 7mm * 7mm size with the pins cnnected to the chip placed inside the package.
      Pads-Send the signals inside and outside the chip through pads.
      Chip- It is the place where all the digital Logic is fabricated with a combination of various gates.
@@ -174,7 +174,7 @@ Magic and Netgen ar used by LVS
  
  6.Pin -Placement
  
-+ Labs
++ **Labs**
  
  run_floorplan - command use to run the floorplan
  
@@ -202,7 +202,7 @@ Magic and Netgen ar used by LVS
  2. Buffers are added if the gates are far away from I/O pins which is charaterized by the timing information that is slew which depends on value of capacitance of the wire length .This is to ensure that the signal integrity is maintained.
  3. When the cells are abutted the delay is minimal
  
-Labs for Placement:
+**Labs for Placement**:
  
 Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and Overflow(If overflow value decreases the design will converge).
  
@@ -217,7 +217,7 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  Same size gate can have different threshold voltage.
  
  Cell Design Flow is divided into 3 parts:
- 1. Input-Input needed to design the cell
+ 1. **Input-Input needed to design the cell**
  Foundary provides PDKs,DRC and LVS rules, SPICE models,library and user-defined specifications.
  
  Some DRC Rules :
@@ -231,7 +231,7 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  Supply Voltage- Top Level designer decides the supply voltage.
  Metal layers,Pin Locations and drawn gatelength
  
- 2. Design the cell
+ 2. **Design the cell**
     Design of the cell requires 3 different steps:
  
     1.Circuit Design-It is based on Spice Simulations. By knowing swithcing threshold value we can design our p-mos and n-mos gates and decide the value of W/L.
@@ -244,7 +244,7 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
      Extractes Spice Netlist (.cir)- Contains resistances and capacitances of each and every element of layout
      Extract the parasitics of the Layout and characterize it in terms of timing.
      
-    3.Characteriztion Flow
+    3.**Characteriztion Flow**
  Steps for the Characterization
       1.Read the spice model files 
       2.Read the extracted SpiceNetlist
@@ -257,17 +257,20 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
       9.Provide necessary simuation command
       10.Feed -in all the these configurations to the characterizatio software called GUNA which will generate timing, noise and Power models.
  
-3.Output of the cell used by EDA tools
+3.**Output of the cell used by EDA tools**
  We get outputs in the form of :
  CDL(Circuit Description language)-
  
  + <a name="second-content-4"> General Timing Characterization Parameters
  
- Timing Threshold Definitions
+ **Timing Threshold Definitions**
  
  1.slew_low_rise_thr : Threshold of the waveform  towards the lower side of the power supply rising from low to high .Typical values are from 20-30 percent.
+ 
  2.slew_high_rise_thr:Threshold of the waveform  towards the upper side of the power supply rising from low to high .Typical values are from 20-30 percent
+ 
  3.slew_low_fall_thr:  Lower threshold for falling waveform.
+ 
  4.slew_high_fall_thr: Upper threshold for falling waveform.
   
  These values are used to calculate slew of the waveform.
@@ -280,7 +283,7 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  Negative delay can be observed if we shift the threshold values.
  And if the distance between 2 units is high it might  result in higher slew resulting in negative delay.
  
- Transition Time:
+ **Transition Time**:
  
  For the slew rising waveform substarct the low from high timing threshold. 
  For the slew falling waveform substarct the high from low timing threshold. 
