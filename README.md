@@ -300,6 +300,9 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
            p-type substarte- Has high resistivity (5-50 ohms), Doping Level(10^15 per cm3) and orientation(100)
  
     2.Create an active-region for Transistors
+ 
+  ![image](https://user-images.githubusercontent.com/86367130/124148898-bec96880-daad-11eb-9ffc-e6ab6579b274.png)
+ 
            Create 40nm layer of Sio2 and 80nm layer of Si3N4 and 1um layer of photoresist.
            The areas covered by **mask-1** are protected and rest are exposed to the chemical reactions and extra photoresist is washed away.
            Remove the mask.
@@ -315,7 +318,7 @@ This isolates the two transistors.
 
       
            
- ![image](https://user-images.githubusercontent.com/86367130/124148898-bec96880-daad-11eb-9ffc-e6ab6579b274.png)
+ 
       
      3. Create N-Well and P-Well Formation:
          
