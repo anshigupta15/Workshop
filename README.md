@@ -16,7 +16,7 @@
    + [Cell Design and Characterizaton Flows](#second-content-3)
    + [General Timing Charaterization Parameters](#second-content-4)
 
-3.[Design Library Cell Using Magic Layout and ngspice characterization](#day3)
+3.[Design Library Cell Using Magic Layout and ngSpice characterization](#day3)
 
    + [Labs for CMOS inverter Ngspice simulations](#t-con-1)
    + [Inception of Layout CMOS Fabrication Process](#t-con-2)
@@ -284,6 +284,14 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  
  For the slew rising waveform substarct the low from high timing threshold. 
  For the slew falling waveform substarct the high from low timing threshold. 
+ 
+# <a name="day3"> Design Library Cell Using Magic Layout and ngSpice characterization
+ 
+ + <a name="t-con-1"> Labs for CMOS inverter Ngspice simulation
+ 
+ + <a name="t-con-2"> Inception of Layout CMOS Fabrication Process
+ 
+ + <a name="t-con-3"> Sky130 Tech File Labs
  
  
  
