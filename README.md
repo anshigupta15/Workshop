@@ -176,6 +176,18 @@ Magic and Netgen ar used by LVS
   ![image](https://user-images.githubusercontent.com/86367130/123984897-a5a7b580-d9e2-11eb-95a5-9fdebc370912.png)
  
  
++ Labs
+ 
+ run_floorplan - command use to run the floorplan
+ 
+ Width of the die=660685/1000=660.685 micron
+ Heigth of the Die=671405/1000=671.405 micron
+ Area=Width*Height=443587.212 square microns
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124104313-c4a85500-da7f-11eb-84ed-c2b8bd31e66e.png)
+
+ 
+ 
     
 
  
