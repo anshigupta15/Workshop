@@ -190,6 +190,12 @@ Magic and Netgen ar used by LVS
  
  ![image](https://user-images.githubusercontent.com/86367130/124106660-0b974a00-da82-11eb-9591-04ab590a8af4.png)
  
+ Changed the Placement of Pins to 2 :
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124194996-29e36100-dae7-11eb-9ba2-e38e36931582.png)
+
+ 
+ 
  + <a name="second-content-2"> Libarary Binding and Placement
  
  Placement and Routing
@@ -292,6 +298,22 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  
  + **<a name="t-con-1"> Labs for CMOS inverter Ngspice simulation**
  
+ VTC- Spice Simulations:
+     1. Create A Spice Deck- Connecticity information of the Netlist, input and ouput information.
+     2. Define W/L value of P-Mos and N-mos and Load capacitance, input gate voltage and Vss
+     3. Identify the nodes and name them.
+      
+   Writing Spice Deck:
+  ![image](https://user-images.githubusercontent.com/86367130/124197423-1c7ca580-daec-11eb-9a99-ee77e94979e6.png)
+
+ Simulation Commands:
+           
+           ![image](https://user-images.githubusercontent.com/86367130/124197473-38804700-daec-11eb-96a4-16343a4d491e.png)
+  Model Files:
+          ![image](https://user-images.githubusercontent.com/86367130/124197555-65ccf500-daec-11eb-8853-d5ca45107c6e.png)
+
+
+     
  + **<a name="t-con-2"> Inception of Layout CMOS Fabrication Process**
  
  **16-Mask CMOS Process**
