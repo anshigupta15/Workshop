@@ -339,7 +339,7 @@ This isolates the two transistors.
  
  ![image](https://user-images.githubusercontent.com/86367130/124171432-33100600-dac6-11eb-9571-0a3225776e2f.png)
 
- The HF can be used to remove the oxide layer and a high quality oxide can re-grown of 10nm thick depending upon the threshold voltage.
+               The HF can be used to remove the oxide layer and a high quality oxide can re-grown of 10nm thick depending upon the threshold voltage.
  A Polysilicon layer is deposited of about 0.4um thick and in order to make gate area of less resistance more impurities are doped into of any N-type impurity.
  **Mask-6**- It is used to draw the gates and reamining areas of Polysilicon can be etched away.
  
