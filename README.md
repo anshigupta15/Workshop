@@ -193,6 +193,17 @@ Magic and Netgen ar used by LVS
  ![image](https://user-images.githubusercontent.com/86367130/124106660-0b974a00-da82-11eb-9591-04ab590a8af4.png)
  
  
+ 
+ Labs for Placement to chec Congestion:
+ 
+Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and Overflow(If overflow value decreases the design will converge).
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124114440-32f21500-da8a-11eb-8ee8-abb6d7c70374.png)
+
+ 
+ 
+ 
+ 
 
 
  
