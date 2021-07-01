@@ -343,21 +343,30 @@ This isolates the two transistors.
  A Polysilicon layer is deposited of about 0.4um thick and in order to make gate area of less resistance more impurities are doped into of any N-type impurity.
  **Mask-6**- It is used to draw the gates and reamining areas of Polysilicon can be etched away.
  
-   5.Lightly-Doped Drain(LDD) formation-
+      5.Lightly-Doped Drain(LDD) formation-
+ 
+               The doping profile for P-Mos id P+,P- and N and for N-Mos is N+,N- and P.This profile is used for 2 reasons:
+ **Hot electron effect** and ** Short Channel Effect**
+     **Hot electron effect**- When the device size reduces and power supply is not redesigned and so the Electric Field (E=V/d) increases and as a result elecron attain large energy which break the Si-Si bonds leading to more e and holes disturbing the doping profile.
+     And the energy may be too high which crosses electron barrier of 3.2 eV barrier between Si conduction band Sio2 band.
+     **Short Channel Effect**-When we change gate length from 1um to 0.5 um, the drain penetrates into channel area and thus it becomes difficult to control the current by gate area.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124175223-f7c40600-daca-11eb-8dad-ebd85987852b.png)
+
+ 
+     **Mask-7**- Is used to implant the N- dopant into the P-well.
+     **Mask-8**- Is used to implant the P- dopant into the N-Well
+  Side-Wall Spacers- Are formed by depositing thick Silicon Nitride or Silicon oxide Layer and is etched out by Anisotropic Plasma Etching.These spacers prevent the N-or P- implants being disturbed by the P+ or N+ doping implants.
+ 
+      6. Source and Drain Formation-
+ 
+ 
  
  
  
  
  
 
- 
- 
-
-         
-
-
-           
- 
  
  
  + <a name="t-con-3"> Sky130 Tech File Labs
