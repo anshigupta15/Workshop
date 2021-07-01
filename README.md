@@ -217,7 +217,23 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  
  + <a name="second-content-3"> Cell Design and Characterization Flows
  
- Standard Cells- They are defined in the libraries.
+ Standard Cells- They are defined in the libraries and they have different versions of same gate with different sizes and threshold voltage.
+ Larger the  threshold voltage more will be the time taken to switch.
+ Same size gate can have different threshold voltage.
+ 
+ Cell Design Flow is divided into 3 parts:
+ 1. Input-Input needed to design the cell
+ Foundary provides PDKs,DRC and LVS rules, SPICE models,library and user-defined specifications.
+ 
+ Some DRC Rules :
+ Polywidth-2 Lambda
+ Extensio Over ctive Area-3 Lambda
+ Poly to Active Spacing-1 or 2 Lambda
+ 
+ 2. Design the cell
+ 
+ 3.Output of the cell used by EDA tools
+ 
 
 
  
