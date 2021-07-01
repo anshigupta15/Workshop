@@ -25,7 +25,7 @@
 2.[Good FloorPlan vs BadFloorPlan and introduction to library cells](#day2)
 
    + [Chip Floor Planning Considerations](#second-content-1)
-   + [Library Binding and Placement](#second-cotent-2)
+   + [Library Binding and Placement](#second-content-2)
    + [Cell Design and Characterizaton Flows](#seccond-content-3)
    + [General Timing Charaterization Parameters](#scond-content-4)
 
@@ -152,6 +152,8 @@ Magic and Netgen ar used by LVS
 
 # <a name="day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
++ <a name="second-content-2"> Chip Floor Planning Considerations
+ 
  1. Utilization factor:
  
         If for example,the following logic is taken:
@@ -194,7 +196,7 @@ Magic and Netgen ar used by LVS
  
  
  
- Labs for Placement to chec Congestion:
+ Labs for Placement:
  
 Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and Overflow(If overflow value decreases the design will converge).
  
