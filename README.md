@@ -199,6 +199,9 @@ Magic and Netgen ar used by LVS
 Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and Overflow(If overflow value decreases the design will converge).
  
  ![image](https://user-images.githubusercontent.com/86367130/124114440-32f21500-da8a-11eb-8ee8-abb6d7c70374.png)
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124114701-7fd5eb80-da8a-11eb-976a-43ca6b8bf98b.png)
+
 
  
  
