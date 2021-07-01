@@ -26,8 +26,8 @@
 
    + [Chip Floor Planning Considerations](#second-content-1)
    + [Library Binding and Placement](#second-content-2)
-   + [Cell Design and Characterizaton Flows](#seccond-content-3)
-   + [General Timing Charaterization Parameters](#scond-content-4)
+   + [Cell Design and Characterizaton Flows](#second-content-3)
+   + [General Timing Charaterization Parameters](#second-content-4)
 
 
     
@@ -152,7 +152,7 @@ Magic and Netgen ar used by LVS
 
 # <a name="day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
-+ <a name="second-content-2"> Chip Floor Planning Considerations
++ <a name="second-content-1"> Chip Floor Planning Considerations
  
  1. Utilization factor:
  
