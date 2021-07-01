@@ -178,6 +178,11 @@ Magic and Netgen ar used by LVS
  
   ![image](https://user-images.githubusercontent.com/86367130/123984897-a5a7b580-d9e2-11eb-95a5-9fdebc370912.png)
  
+ 4.DeCoupling Capacitors-Are attached in parallel of the gates so that timing vioalations can be avoided . They supply the current to the circuit when the design is decoupled and use the rest of the time to charge themselves to Vdd.
+ 
+ 5.Power Planning- To avoid the voltage drop of supply voltage across the circuit the power lines are placed across the circuit in terms of vertical and horizontal lines.
+ 
+ 6.Pin -Placement
  
 + Labs
  
