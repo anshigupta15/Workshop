@@ -317,7 +317,9 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
 
  Switching Threshold: Point at which device switches
            
-          
+ Layout Design on Inverter-
+ ![image](https://user-images.githubusercontent.com/86367130/124205185-5b1b5b80-dafe-11eb-9b89-5387fc6cdcc8.png)
+
 
 
      
