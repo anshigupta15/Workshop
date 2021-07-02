@@ -22,6 +22,19 @@
    + [Inception of Layout CMOS Fabrication Process](#t-con-2)
    + [Sky130 Tech File Labs](#t-con-3)
 
+4.[Prelayout timing analysis and importance of good clock tree](#day4)
+
+   + [Timing Modeling using delay tables](#f-con-1)
+   + [Timing analysis with ideal clocks using open STA](#f-con-2)
+   + [Clock tree synthesis TritonCTS and signal integrity](#f-con-3)
+   + [Timing analysis with real clocks using open STA](#f-con-4)
+
+5.[Final Steps From RTL2GDS using tritonRoute and open STA](#day5)
+
+   + [Routing and Design Rule Check(DRC)](#fi-con-1)
+   + [Power distribution network and routing](#fi-con-2)
+   + [TritonRoute Features](#fi-con-3)
+
 # <a name="first-day1"></a>Inception of open-source EDA,Open LANE and Sky130 PDK
 
 + **<a name="first-content-1"></a>Introducion to QFN-48 Package, chips, pads, core, die and IPs**
@@ -447,7 +460,11 @@ This isolates the two transistors.
  4. Cell Fall Delay(Propagation Delay when output if fallng)=4ps
      
  
- + <a name="t-con-3"> Sky130 Tech File Labs
+# <a name="day4"> Prelayout Timing Analysis and importance of good clock tree
+ 
+ ** +<a name="f-con-1"> Timing modelling using delay tables **
+ 
+ 
  
  
  
