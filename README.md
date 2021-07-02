@@ -476,6 +476,12 @@ This isolates the two transistors.
  
  ![image](https://user-images.githubusercontent.com/86367130/124298000-5fd12580-db79-11eb-8d1a-82d97b48e94d.png)
  
+ Width of the standard cell should be in odd multiples of x-pitch
+ Here width is about 3 times the x-pitch
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124308077-5a2e0c80-db86-11eb-8d1c-c9fd5c456993.png)
+
+ 
  
 
  
