@@ -126,7 +126,7 @@ Magic and Netgen ar used by LVS
  Synthesis Successful-
  ![image](https://user-images.githubusercontent.com/86367130/124074193-bbf45680-da60-11eb-9fd2-e21536123299.png)
  
- Charaterize Synthesis Results:
+ Characterize Synthesis Results:
  Number of D Flip-Flops=1613
  Number of Cells=14876
  Flop Count of the Design=1613/14876=0.1084 or 10.84 percent
