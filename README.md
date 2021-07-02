@@ -512,20 +512,19 @@ So, ports are converted into pins
  
 
 
-                     
-
-
- 
- 
-
- 
- 
+                   
  
      
  
 # <a name="day4"> Prelayout Timing Analysis and importance of good clock tree
  
  + **<a name="f-con-1">Timing modelling using delay tables**
+ 
+ And and OR gates Logic are used with the clock to stop the clock and save static and dynamic power.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124324026-e13bae80-db9f-11eb-9c19-6bff07b747a0.png)
+
+ 
  
  
  
