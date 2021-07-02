@@ -491,6 +491,23 @@ This isolates the two transistors.
  So, for output port Port class output and port use signal
  For VPWR port class input and port use power
  For VGND port class input and port use power
+ 
+ Saving the cell with a custom name:
+  
+ ![image](https://user-images.githubusercontent.com/86367130/124310693-31a81180-db8a-11eb-89b4-e61c146e50a7.png)
+A mag file is created with the same name 
+ 
+![image](https://user-images.githubusercontent.com/86367130/124310808-5d2afc00-db8a-11eb-8b76-918b119203c1.png)
+ 
+ Now lef file is extracted by the following command :
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124311120-dde9f800-db8a-11eb-9128-d71f2e8b5a75.png)
+A lef file is create hence,
+ ![image](https://user-images.githubusercontent.com/86367130/124311191-feb24d80-db8a-11eb-8d46-d4b02772ba03.png)
+So, ports are converted into pins
+![image](https://user-images.githubusercontent.com/86367130/124311334-328d7300-db8b-11eb-8188-23e4d6dea3de.png)
+
+
                      
 
 
