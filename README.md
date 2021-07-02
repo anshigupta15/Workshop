@@ -442,7 +442,7 @@ This isolates the two transistors.
  
  ![sky130inv](https://user-images.githubusercontent.com/86367130/124253382-9725df00-db45-11eb-8e61-9adfb24604b3.PNG)
  
-![edited_final_deck](https://user-images.githubusercontent.com/86367130/124253408-9db45680-db45-11eb-84f2-560ca73814f3.PNG)
+![image](https://user-images.githubusercontent.com/86367130/124293654-817bde00-db74-11eb-88c4-4bc607c22c74.png)
 
  Plot y vs time a
  
