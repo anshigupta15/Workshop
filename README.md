@@ -469,6 +469,17 @@ This isolates the two transistors.
  
  3.Height of the standard should be in multiples of vertical track pitch
  
+ grid <x-spacing> <y-spacing> <x-origin> <y-origin>
+ 
+ The dimension of the grid changed according to the track file data
+ and input and output ports are found at the intersection of tracks.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124298000-5fd12580-db79-11eb-8d1a-82d97b48e94d.png)
+ 
+ 
+
+ 
+ 
  
      
  
