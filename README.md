@@ -484,6 +484,14 @@ This isolates the two transistors.
  When we extract lef file the ports are referred to as pins in the MACRO
  
  ![image](https://user-images.githubusercontent.com/86367130/124309056-ccebb780-db87-11eb-9853-4d8804139cf4.png)
+ 
+ Now ports are identified as input-output ports and are defined by port class and port use.
+ ![image](https://user-images.githubusercontent.com/86367130/124310014-3a4c1800-db89-11eb-8c40-4dd9602d2a1b.png)
+
+ So, for output port Port class output and port use signal
+ For VPWR port class input and port use power
+ For VGND port class input and port use power
+                     
 
 
  
