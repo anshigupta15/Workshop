@@ -462,7 +462,7 @@ This isolates the two transistors.
  
 # <a name="day4"> Prelayout Timing Analysis and importance of good clock tree
  
- +<a name="f-con-1"> ** Timing modelling using delay tables **
+ + **<a name="f-con-1">Timing modelling using delay tables**
  
  
  
