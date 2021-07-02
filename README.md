@@ -308,9 +308,13 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
 
  Simulation Commands:
            
-           ![image](https://user-images.githubusercontent.com/86367130/124197473-38804700-daec-11eb-96a4-16343a4d491e.png)
+ ![image](https://user-images.githubusercontent.com/86367130/124197473-38804700-daec-11eb-96a4-16343a4d491e.png)
   Model Files:
-          ![image](https://user-images.githubusercontent.com/86367130/124197555-65ccf500-daec-11eb-8853-d5ca45107c6e.png)
+ ![image](https://user-images.githubusercontent.com/86367130/124197555-65ccf500-daec-11eb-8853-d5ca45107c6e.png)
+ When the W/L ratio of PMOS is greater the graph , the transfer characteristic shift to the right.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124201830-a893ca80-daf6-11eb-9760-e069eaffe2e8.png)
+
 
 
      
