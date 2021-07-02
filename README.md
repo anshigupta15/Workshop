@@ -465,7 +465,7 @@ This isolates the two transistors.
  
  1.Input and output port must be on the intersection of vertical and horizontal lines
  
- 2.Width of the standard should be in multiples of horizontal track pitch
+ 2.Width of the standard should be in odd multiples of horizontal track pitch
  
  3.Height of the standard should be in multiples of vertical track pitch
  
