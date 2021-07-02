@@ -418,7 +418,19 @@ This isolates the two transistors.
                 The higher level interconnect is thicker than the lower level.Silicon Nitride is used to protect the chip and Mask-16 is used to open contact holes on this layer.
  
  ![image](https://user-images.githubusercontent.com/86367130/124180060-483e6200-dad1-11eb-8635-5899af6b847c.png)
+ 
+ **Spice Simulation**
+ 
+ When Load Capacitance is = 0.2fF, Waveform is as shown below
+ ![image](https://user-images.githubusercontent.com/86367130/124249402-76f42100-db41-11eb-899c-f40a5bb67b7b.png)
 
+ Charaterizing the Cell
+ 
+ 1. Rise Transition-Time taken by output waveform to rise from 20-80 percent of Vdd =0.064ns
+ 2. Fall Transition-Time taken by output waveform to fall from 80-20 percent of vdd=20ps
+ 3.Cell Risse Propagation Delay(propagation delay when  the output of the cell is rising)=0.061ns
+ 4. Cell Fall Delay(Propagation Delay when output if fallng)=4ps
+     
  
  + <a name="t-con-3"> Sky130 Tech File Labs
  
