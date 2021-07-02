@@ -315,6 +315,9 @@ Propagation Delay- Take the difference of the 50 percent to calculate the delay.
  
  ![image](https://user-images.githubusercontent.com/86367130/124201830-a893ca80-daf6-11eb-9760-e069eaffe2e8.png)
 
+ Switching Threshold: Point at which device switches
+           
+          
 
 
      
