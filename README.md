@@ -461,7 +461,7 @@ This isolates the two transistors.
  
  **Convert grid info to track info**
  
- Some rules for 
+ Some rules for standard cell design
  
  1.Input and output port must be on the intersection of vertical and horizontal lines
  
