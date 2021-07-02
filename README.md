@@ -421,6 +421,21 @@ This isolates the two transistors.
  
  **Spice Simulation**
  
+ Extract Spice netlist
+ 
+ ![ext2spice2](https://user-images.githubusercontent.com/86367130/124253271-7bbad400-db45-11eb-9416-41925b263b58.PNG)
+
+ Editing Spice Deck:
+ 
+ ![sky130inv](https://user-images.githubusercontent.com/86367130/124253382-9725df00-db45-11eb-8e61-9adfb24604b3.PNG)
+ 
+![edited_final_deck](https://user-images.githubusercontent.com/86367130/124253408-9db45680-db45-11eb-84f2-560ca73814f3.PNG)
+
+ Plot y vs time a
+ 
+ ![plot y vs time](https://user-images.githubusercontent.com/86367130/124253476-af95f980-db45-11eb-968a-445ccb9340ca.PNG)
+
+ 
  When Load Capacitance is = 0.2fF, Waveform is as shown below
  ![image](https://user-images.githubusercontent.com/86367130/124249402-76f42100-db41-11eb-899c-f40a5bb67b7b.png)
 
