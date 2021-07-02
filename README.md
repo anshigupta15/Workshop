@@ -458,6 +458,15 @@ This isolates the two transistors.
  2. Fall Transition-Time taken by output waveform to fall from 80-20 percent of vdd=20ps
  3.Cell Risse Propagation Delay(propagation delay when  the output of the cell is rising)=0.061ns
  4. Cell Fall Delay(Propagation Delay when output if fallng)=4ps
+ 
+ **Convert grid info to track info **
+ 
+ Some rules for 
+ 1.Input and output port must be on the intersection of vertical and horizontal lines
+ 2.Width of the standard should be in multiples of horizontal track pitch
+ 3.Height of the standard should be in multiples of vertical track pitch
+ 
+ 
      
  
 # <a name="day4"> Prelayout Timing Analysis and importance of good clock tree
