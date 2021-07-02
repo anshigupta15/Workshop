@@ -520,9 +520,16 @@ So, ports are converted into pins
  
  + **<a name="f-con-1">Timing modelling using delay tables**
  
+ **Clock gating**
  And and OR gates Logic are used with the clock to stop the clock and save static and dynamic power.
  
  ![image](https://user-images.githubusercontent.com/86367130/124324026-e13bae80-db9f-11eb-9c19-6bff07b747a0.png)
+ 
+ Delay Tables:
+ 
+ Its a 2-D table with timing analysis when varying input slew and output capacitances.
+ 
+ Every component has a delay table which are timing models for that gate.
 
  
  
