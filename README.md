@@ -506,6 +506,10 @@ A lef file is create hence,
  ![image](https://user-images.githubusercontent.com/86367130/124311191-feb24d80-db8a-11eb-8d46-d4b02772ba03.png)
 So, ports are converted into pins
 ![image](https://user-images.githubusercontent.com/86367130/124311334-328d7300-db8b-11eb-8188-23e4d6dea3de.png)
+ 
+ Now in order to integrate the cell with picorv32a ,copy the lef file and libraries into the src folder and make changes to config.tcl file
+ 
+ 
 
 
                      
