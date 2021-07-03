@@ -638,7 +638,11 @@ Skew is Delta1 - Delta2
  
  ![image](https://user-images.githubusercontent.com/86367130/124364523-b9138480-dc5f-11eb-867c-a953b872d1fc.png)
  
- ![image](https://user-images.githubusercontent.com/86367130/124364656-88801a80-dc60-11eb-9c76-2001b1e4e0ea.png)
+ RHS is data required time and LHS is data arrival time.
+ So, in hold timing analysis slack=Data Arrival Time-Data Required Time.So, slack should be negative or zero.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124364809-72268e80-dc61-11eb-9bd5-8be6925a0088.png)
+
 
 
   
