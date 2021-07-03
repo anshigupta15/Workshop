@@ -536,7 +536,7 @@ So, ports are converted into pins
  
  Every component has a delay table which are timing models for that gate.
  
- + **<a name-"f-con-2"> Timing Analysis using Ideal Clocks Using Open STA**
+ + **<a name="f-con-2"> Timing Analysis using Ideal Clocks Using Open STA**
  
  STA -Labs
  
@@ -625,9 +625,24 @@ Due to transition of clock across the wire the signal might loose its integrity 
  Slack should be either positive zero.
  
 ![image](https://user-images.githubusercontent.com/86367130/124364275-07278880-dc5e-11eb-85fc-342ffb226791.png)
+ 
+ Delta1 and Delta2 - Clock network delay of launch and capture flop.
 
 Skew is Delta1 - Delta2
              The circuit  violating the timing constraints will have a slack.
+ 
+ **Hold-Timing Analysis** Single Clock
+ 
+ Hold time refers to the second mux delay in the flip-flop and the setup time is mux1 delay.
+ No data should arrive when it is sending data outside and that time is the hold time.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124364523-b9138480-dc5f-11eb-867c-a953b872d1fc.png)
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124364656-88801a80-dc60-11eb-9c76-2001b1e4e0ea.png)
+
+
+  
+
  
  # <a name="day5">Final Steps for RTL2GDS using tritonRoute and OpenSTA
  
