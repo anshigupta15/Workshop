@@ -536,6 +536,8 @@ So, ports are converted into pins
  
  Every component has a delay table which are timing models for that gate.
  
+ + **<a name-"f-con-2"> Timing Analysis using Ideal Clocks Using Open STA**
+ 
  STA -Labs
  
   
@@ -563,6 +565,8 @@ So we can reduce the slack by increasing the including the area and introducing 
  
  By increasing the size of the buffers increased and more iterations were used placement.
  
+ + **<a name="f-con-3"> Clock Tree Synthesis TriTonCTS and Signal Integrity**
+ 
  Parameters considered in CTS:
    ![image](https://user-images.githubusercontent.com/86367130/124360487-be64d500-dc47-11eb-9e45-d8d5d770a1f4.png)
  
@@ -573,6 +577,12 @@ So we can reduce the slack by increasing the including the area and introducing 
             run_cts
  
  Verify CTS:
+ 
+ + **<a name="f-con-4">Timing Analysisi Using Real Clocks Using Open STA**
+ 
+ # Final Steps for RTL2GDS using tritonRoute and OpenSTA
+ 
+
       
 
  
