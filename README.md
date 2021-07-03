@@ -520,7 +520,7 @@ So, ports are converted into pins
  ![image](https://user-images.githubusercontent.com/86367130/124352629-10453500-dc1f-11eb-8d09-28e8affc664d.png)
 Synthesis run has tns=-711.59ns
  wns=-23.89ns
-
+So we can reduce the slack by increasing the including buffers in the synthesis.
 
  
  
