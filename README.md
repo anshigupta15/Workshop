@@ -509,11 +509,12 @@ So, ports are converted into pins
  
  Now in order to integrate the cell with picorv32a ,copy the lef file and libraries into the src folder and make changes to config.tcl file
  
- ![image](https://user-images.githubusercontent.com/86367130/124345423-5043f200-dbf6-11eb-935b-34910ac098f4.png)
+ ![image](https://user-images.githubusercontent.com/86367130/124351653-3bc52100-dc19-11eb-8637-e4a7dea53ec5.png)
 
- Executing the docker to run the sythesis
+ And the cell has been integrated in the synthesis:
  
- ![image](https://user-images.githubusercontent.com/86367130/124345544-32c35800-dbf7-11eb-844f-aabfc1714362.png)
+ ![image](https://user-images.githubusercontent.com/86367130/124351620-0c161900-dc19-11eb-9dca-d6f569733195.png)
+
 
  
  
