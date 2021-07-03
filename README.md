@@ -556,6 +556,25 @@ So we can reduce the slack by increasing the including the area and introducing 
  
  Introducing bufferes,upsizing the cell and increasing the Fanout has reduced the delay
 
+ Now replacing the synthesis file with modified one
+ 
+ Command in STA:
+            write verilog <location of synthesis file>/<name of the file>
+ 
+ By increasing the size of the buffers increased and more iterations were used placement.
+ 
+ Parameters considered in CTS:
+   ![image](https://user-images.githubusercontent.com/86367130/124360487-be64d500-dc47-11eb-9e45-d8d5d770a1f4.png)
+ 
+ Running Clock-Tree-Synthesis:
+ 
+ In Clock Buffers get added which modifies the Netlist and a new file picorv32a.synthesis_cts.v is created
+ 
+            run_cts
+ 
+ Verify CTS:
+      
+
  
  
  
