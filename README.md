@@ -567,8 +567,30 @@ So we can reduce the slack by increasing the including the area and introducing 
  
  + **<a name="f-con-3"> Clock Tree Synthesis TriTonCTS and Signal Integrity**
  
+ **Clock Tree Synthesis**
+             Skew-Time difference to reach the clock to different flip-flops.It should be close to zero.
+ 
+![image](https://user-images.githubusercontent.com/86367130/124363379-831ed200-dc58-11eb-8bdd-f2c7ee4b05c9.png)
+ 
+                  So, **H-Tree** -Calculates the distance of the clock to all flip-flops and comes at the mid-pont of it from where the tree is built and looks H-shaped.
+ Here skew will be close to zero.
+   
+  ![image](https://user-images.githubusercontent.com/86367130/124363488-22dc6000-dc59-11eb-8b0e-bffd02a8726e.png)
+ 
+ **Clock Tree Buffering:**
+ 
+Due to transition of clock across the wire the signal might loose its integrity because of resistances and capacitances across the wire.
+             So, the solution is clock buffers.They have equal rise and fall time.
+ 
+ Here red coloured bufferes are clock buffers
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124363629-0856b680-dc5a-11eb-8c7e-c96b0a0ee0fd.png)
+
+
+ 
  Parameters considered in CTS:
-   ![image](https://user-images.githubusercontent.com/86367130/124360487-be64d500-dc47-11eb-9e45-d8d5d770a1f4.png)
+ 
+![image](https://user-images.githubusercontent.com/86367130/124360487-be64d500-dc47-11eb-9e45-d8d5d770a1f4.png)
  
  Running Clock-Tree-Synthesis:
  
