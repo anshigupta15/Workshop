@@ -612,9 +612,22 @@ Due to transition of clock across the wire the signal might loose its integrity 
  
             run_cts
  
- Verify CTS:
+
  
- + **<a name="f-con-4">Timing Analysisi Using Real Clocks Using Open STA**
+ + **<a name="f-con-4">Timing Analysis Using Real Clocks Using Open STA**
+ 
+ In real clock system , the clock will reach the flip-flop through a set of buffers and wires.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124364403-f4618380-dc5e-11eb-8c66-093101e3bebf.png)
+
+ 
+                  The RHS is data required time and LHS is Data arrival Time.Data required time should be greater than data arrival time, otherwise it is a negative slack.
+ Slack should be either positive zero.
+ 
+![image](https://user-images.githubusercontent.com/86367130/124364275-07278880-dc5e-11eb-85fc-342ffb226791.png)
+
+Skew is Delta1 - Delta2
+             The circuit  violating the timing constraints will have a slack.
  
  # <a name="day5">Final Steps for RTL2GDS using tritonRoute and OpenSTA
  
