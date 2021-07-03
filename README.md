@@ -514,14 +514,7 @@ So, ports are converted into pins
  And the cell has been integrated in the synthesis:
  
  ![image](https://user-images.githubusercontent.com/86367130/124351620-0c161900-dc19-11eb-9dca-d6f569733195.png)
- 
- READ.me file with the strategy
- 
- ![image](https://user-images.githubusercontent.com/86367130/124352629-10453500-dc1f-11eb-8d09-28e8affc664d.png)
-Synthesis run has tns=-711.59ns
- wns=-23.89ns
-So we can reduce the slack by increasing the including buffers in the synthesis.
- ![image](https://user-images.githubusercontent.com/86367130/124354855-cca4f800-dc2b-11eb-815f-99fc26c1df58.png)
+
 
 
 
@@ -544,6 +537,15 @@ So we can reduce the slack by increasing the including buffers in the synthesis.
  Every component has a delay table which are timing models for that gate.
  
  STA -Labs
+ 
+  
+ READ.me file with the strategy
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124352629-10453500-dc1f-11eb-8d09-28e8affc664d.png)
+Synthesis run has tns=-711.59ns
+ wns=-23.89ns
+So we can reduce the slack by increasing the including the area and introducing buffers in the synthesis,increase the fanout and increase the size of cell which is creating a slack.
+ ![image](https://user-images.githubusercontent.com/86367130/124354855-cca4f800-dc2b-11eb-815f-99fc26c1df58.png)
  
  ![image](https://user-images.githubusercontent.com/86367130/124354909-20174600-dc2c-11eb-8ce8-feb9a87bd3e5.png)
 
