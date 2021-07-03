@@ -514,6 +514,12 @@ So, ports are converted into pins
  And the cell has been integrated in the synthesis:
  
  ![image](https://user-images.githubusercontent.com/86367130/124351620-0c161900-dc19-11eb-9dca-d6f569733195.png)
+ 
+ READ.me file with the strategy
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124352629-10453500-dc1f-11eb-8d09-28e8affc664d.png)
+Synthesis run has tns=-711.59ns
+ wns=-23.89ns
 
 
  
