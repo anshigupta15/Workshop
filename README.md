@@ -521,13 +521,11 @@ So, ports are converted into pins
 Synthesis run has tns=-711.59ns
  wns=-23.89ns
 So we can reduce the slack by increasing the including buffers in the synthesis.
-
- 
- 
+ ![image](https://user-images.githubusercontent.com/86367130/124354855-cca4f800-dc2b-11eb-815f-99fc26c1df58.png)
 
 
-                   
- 
+
+
      
  
 # <a name="day4"> Prelayout Timing Analysis and importance of good clock tree
@@ -544,6 +542,21 @@ So we can reduce the slack by increasing the including buffers in the synthesis.
  Its a 2-D table with timing analysis when varying input slew and output capacitances.
  
  Every component has a delay table which are timing models for that gate.
+ 
+ STA -Labs
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124354909-20174600-dc2c-11eb-8ce8-feb9a87bd3e5.png)
+
+ My_base
+ ![image](https://user-images.githubusercontent.com/86367130/124355281-e21b2180-dc2d-11eb-8daa-6ed58336e9ab.png)
+ 
+ Then sta sta.conf to run static timing analysis
+ 
+ Introducing bufferes,upsizing the cell and increasing the Fanout has reduced the delay
+
+ 
+ 
+ 
 
  
  
