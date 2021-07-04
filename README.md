@@ -146,13 +146,11 @@ Magic and Netgen ar used by LVS
  
  ![image](https://user-images.githubusercontent.com/86367130/124074488-2c02dc80-da61-11eb-9339-5a6d0688df99.png)
  
+ **Cell LEF**- It holds information about the metal layer information, PNR boundary and pin positions.
+ **Technology LEF** - Holds information DRC rules,vias and metal layers used in placement and routing
  
-
-
  
  
-
-
 # <a name="day2"> Good FloorPlan vs BadFloorPlan and introduction to library cells
  
 + <a name="second-content-1"> Chip Floor Planning Considerations
@@ -278,7 +276,7 @@ Placement-Reduction of HPWL(Half Parameter Wire Length in Global Placement) and 
  
 3.**Output of the cell used by EDA tools**
  We get outputs in the form of :
- CDL(Circuit Description language)-
+ CDL(Circuit Description language),GDSII,LEF(Library Exchange Format),Spice Extracted Netlist,timing,noise and power libs.
  
  + <a name="second-content-4"> General Timing Characterization Parameters
  
