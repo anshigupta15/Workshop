@@ -514,12 +514,8 @@ So, ports are converted into pins
  And the cell has been integrated in the synthesis:
  
  ![image](https://user-images.githubusercontent.com/86367130/124351620-0c161900-dc19-11eb-9dca-d6f569733195.png)
-
-
-
-
-
-     
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124385315-a4340100-dcf2-11eb-86d1-8d9fff7db303.png)
  
 # <a name="day4"> Prelayout Timing Analysis and importance of good clock tree
  
