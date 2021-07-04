@@ -612,6 +612,10 @@ Due to transition of clock across the wire the signal might loose its integrity 
  
             run_cts
  
+![image](https://user-images.githubusercontent.com/86367130/124374898-7fbd3200-dcbc-11eb-9376-7f40b74e1fb6.png)
+
+ ![image](https://user-images.githubusercontent.com/86367130/124374986-20abed00-dcbd-11eb-936b-e4b7f2f13133.png)
+![image](https://user-images.githubusercontent.com/86367130/124375098-e98a0b80-dcbd-11eb-82ed-7cf3efaffe5b.png)
 
  
  + **<a name="f-con-4">Timing Analysis Using Real Clocks Using Open STA**
@@ -642,6 +646,21 @@ Skew is Delta1 - Delta2
  So, in hold timing analysis slack=Data Arrival Time-Data Required Time.So, slack should not be negative or zero.
  
  ![image](https://user-images.githubusercontent.com/86367130/124364809-72268e80-dc61-11eb-9bd5-8be6925a0088.png)
+
+**Time Analysis after CTS:**
+ 
+ Invoking openroad and reading the Lef File:
+![image](https://user-images.githubusercontent.com/86367130/124375250-e80d1300-dcbe-11eb-9709-2d828217b63e.png)
+ 
+ Reading DEF File:
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124375306-30c4cc00-dcbf-11eb-82de-070273fcb855.png)
+
+ Write and read Db: A db is created in openlane
+ ![image](https://user-images.githubusercontent.com/86367130/124375394-9a44da80-dcbf-11eb-9ada-820254b70c79.png)
+
+ Read Liberty
+
 
 
 
