@@ -133,6 +133,11 @@ Magic and Netgen ar used by LVS
  ![image](https://user-images.githubusercontent.com/86367130/123966857-6a51ba80-d9d3-11eb-879e-097cd9978e8b.png)
  
  After Design Preparation, we will run the Synthesis:
+ 
+ Yosys-Perform RTL Simulation
+ abc-It performs technology mapping and the netlist is created.
+ Open STA-Perform static timing analysis after synthesis.
+ 
  This will execute both yosys and abc pass will be done
  ![image](https://user-images.githubusercontent.com/86367130/124074001-759ef780-da60-11eb-9940-a4d7a7bd883d.png)
  
