@@ -772,6 +772,28 @@ Slack MET:
             they are on same metal layer with touching edges
              they are on neighbouring metal layers with nonzero vertical overlap area.
  
+ Detailed Routing:
+      Inputs: DEF,LEF,Processed Route Guides
+      Output: Detailed Routing Solution with optimized wirelength and vias count.
+      Contraints: Route Guide honouring,connectivity constraints and design rules
+      
+ Handling Connectivity:
+ 
+Access Point:
+                       On-grid point on the metal layer in the route guide used to connect lower layer-segmenst, upper layer segments,pins and IO Ports.
+ 
+ Access Point Cluster:
+                    
+                       Is the union of all Access Points derived from some lower layer segment,upper layer guide, a pin or a IO Port.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124391913-8b3a4880-dd10-11eb-8ee9-1e64faec0746.png)
+ 
+ Algorithm for Routing Topology:
+ 
+ Find the minimal and the most optimal point between two APCs.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124392046-3d721000-dd11-11eb-8169-9d1e5778c059.png)
+ 
  # Acknowledgement
  
  + Kunal Ghosh
