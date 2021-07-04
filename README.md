@@ -746,6 +746,9 @@ Slack MET:
  
  Routing Viewed in Magic:
  ![image](https://user-images.githubusercontent.com/86367130/124389252-f29dcb80-dd03-11eb-89d5-fca6a349dab6.png)
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124389426-a4d59300-dd04-11eb-8fb3-858db58cae8d.png)
+
 
  + **<a name="fi-con-3"> Triton Route Features**
  
