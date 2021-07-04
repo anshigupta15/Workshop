@@ -744,7 +744,7 @@ Slack MET:
  Detail Route: Triton Route 
          Realises segments and vias in accordance to global route.
  
- Algorithm to find the best connectivity.
+ ![image](https://user-images.githubusercontent.com/86367130/124381826-1c45fb00-dce2-11eb-8289-e7fbc276bd4c.png)
  
  +<a name="fi-con-3"> Triton Route Features
  
