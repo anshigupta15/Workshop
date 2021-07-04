@@ -650,14 +650,30 @@ Skew is Delta1 - Delta2
  
  # <a name="day5">Final Steps for RTL2GDS using tritonRoute and OpenSTA
  
- + **<a name="fi-con-1"> Routing and Design Rule Check(DRC)
+ + **<a name="fi-con-1"> Routing and Design Rule Check(DRC)**
  
  **Routing:**
  
  Routing Algorithm finds the best possible connection between 2 end points.
  
  **Maze Routing (Lee's Algorithm):**
-                  Algorithm creates a routing grid in the background. It labels the adjaacent grid to 1 (vertical and horizontal) and next adjaacent grids to 2 and so on.
+                  Algorithm creates a routing grid in the background. It labels the adjaacent grid to 1 (vertical and horizontal) and next adjaacent grids to 2 and so on till the target is reached.So, there are many ways to reach the target and the routes with least bends are preferred(that is L shaped)
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124374626-8ea2e500-dcba-11eb-8450-d8ad68ef80d0.png)
+ 
+ **Design Rule Check while Routing**-
+                    1.Minimum width of the wire according to its optical wavelength and minimum pitch of the wire.
+ 
+ There might be a signal short while routing if 2 signal are travelling across same wire.So, the layer of the wire is chnaged to another layer. Bottom metal layer is connected to the top with the help of vias.
+ 
+ Parasitic Extraction: Resistances and Capacitances of wires are extracted.
+ 
+
+ 
+ 
+
+ 
+ 
  
  
  
