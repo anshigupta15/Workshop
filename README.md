@@ -752,6 +752,25 @@ Slack MET:
 
  + **<a name="fi-con-3"> Triton Route Features**
  
+ + It performs initial detail route
+ + Honours pre-processed route guides
+ + Assume route guide for each net satisfies inter-guide connectivity.
+ + Works on **MILP(Mixed-Integer Linear Programming)** based panel-routing with intra-layer parallel and inter-layer sequential routing framework.
+ 
+ Pre-processed Route Guides:
+ 
+ Should have unit width
+ Should be in preferred direction
+ 
+                        The metal layers have opposite preferred direction to reduce the parallel capacitance developed between them.
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124390227-3266b200-dd08-11eb-8ef0-ceaa1a0c5c8f.png)
+ 
+ Inter-guide connectivity:
+ 
+ 2 guides are connected if:
+            they are on same metal layer with touching edges
+             they are on neighbouring metal layers with nonzero vertical overlap area.
  
  # Acknowledgement
  
