@@ -670,7 +670,7 @@ Reading SDC File
  
 Slack MET:
  Hold Slack=1.8922
- Setip Slack=3.8467
+ Setup Slack=3.8467
  ![image](https://user-images.githubusercontent.com/86367130/124378424-de8ba700-dcce-11eb-8642-cded31265576.png)
  
  Clock Buffer List-
@@ -679,7 +679,21 @@ Slack MET:
  Removing a buf_1 and replacing with a bigger buffer buf_2
  ![image](https://user-images.githubusercontent.com/86367130/124379746-645f2080-dcd6-11eb-8fea-03e7de906660.png)
 
+ Replacing Cts_def with placement
  
+ Inside Openroad
+ 
+![image](https://user-images.githubusercontent.com/86367130/124380540-c0c43f00-dcda-11eb-9bc9-eda08500a8ef.png)
+ 
+ Setup Slack=-4.7821
+ Hold Slack =0.1472
+ 
+ Clock Skew for Hold=0.39
+ Clock Skew for Setup=0.39
+ 
+ Re-Inserting the Clock_Buf_1
+ ![image](https://user-images.githubusercontent.com/86367130/124380779-53b1a900-dcdc-11eb-87f1-bafca0981a6a.png)
+
  
  To kill a process=
  kill -9 <processid>
@@ -705,6 +719,19 @@ Slack MET:
  There might be a signal short while routing if 2 signal are travelling across same wire.So, the layer of the wire is chnaged to another layer. Bottom metal layer is connected to the top with the help of vias.
  
  Parasitic Extraction: Resistances and Capacitances of wires are extracted.
+ 
+ + **<a name="fi-con-2"> Power Distribution Network and Routing
+ 
+ **Generate Power Distribution Network**- gen_pdn
+ Height of the standard cell=2.72=Pitch of power rails
+![image](https://user-images.githubusercontent.com/86367130/124381128-688f3c00-dcde-11eb-96e1-5854e91172ab.png)
+ 
+
+
+ 
+               
+ 
+ 
  
 
  
