@@ -592,7 +592,7 @@ Due to transition of clock across the wire the signal might loose its integrity 
                 Glitch-Coupling capacitance can result in droop in the signal in another circuit which if inverted can result in high logic resulting in loss of signal integrity.For eg: A memory can go to reset if reset goes to high.The shirlded wired are connected to Vdd or ground.The shields dont switch and their is less possibility of glitch.
   ![image](https://user-images.githubusercontent.com/86367130/124363813-37215c80-dc5b-11eb-94e2-65f8104f9a56.png)
  
- Delata Delay: 
+ Delta Delay: 
                If the victim and the aggressor both are switching. The delay of the victim gets impacted by the total delay gets increased by delta delay which results in skew.
  
  ![image](https://user-images.githubusercontent.com/86367130/124364018-5bca0400-dc5c-11eb-95c0-bbf80a885d98.png)
