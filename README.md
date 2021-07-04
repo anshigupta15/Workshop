@@ -660,13 +660,32 @@ Skew is Delta1 - Delta2
  ![image](https://user-images.githubusercontent.com/86367130/124375394-9a44da80-dcbf-11eb-9ada-820254b70c79.png)
 
  Read Liberty
+![image](https://user-images.githubusercontent.com/86367130/124378201-d0895680-dccd-11eb-8014-60c24652725d.png)
+Reading SDC File
+ ![image](https://user-images.githubusercontent.com/86367130/124378249-12b29800-dcce-11eb-8263-6782a34c3f00.png)
+  Set Propagated Clock
+ ![image](https://user-images.githubusercontent.com/86367130/124378320-51485280-dcce-11eb-9ef5-0b6376f2891f.png)
 
-
-
-
-  
+ ![image](https://user-images.githubusercontent.com/86367130/124378389-b308bc80-dcce-11eb-9780-6497a0141d85.png)
+ 
+Slack MET:
+ Hold Slack=1.8922
+ Setip Slack=3.8467
+ ![image](https://user-images.githubusercontent.com/86367130/124378424-de8ba700-dcce-11eb-8642-cded31265576.png)
+ 
+ Clock Buffer List-
+ ![image](https://user-images.githubusercontent.com/86367130/124378978-121c0080-dcd2-11eb-8c19-eaa70c543618.png)
+ 
+ Removing a buf_1 and replacing with a bigger buffer buf_2
+ ![image](https://user-images.githubusercontent.com/86367130/124379746-645f2080-dcd6-11eb-8fea-03e7de906660.png)
 
  
+ 
+ To kill a process=
+ kill -9 <processid>
+
+
+
  # <a name="day5">Final Steps for RTL2GDS using tritonRoute and OpenSTA
  
  + **<a name="fi-con-1"> Routing and Design Rule Check(DRC)**
