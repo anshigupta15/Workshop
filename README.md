@@ -667,7 +667,9 @@ Reading SDC File
  ![image](https://user-images.githubusercontent.com/86367130/124378389-b308bc80-dcce-11eb-9780-6497a0141d85.png)
  
 Slack MET:
+ 
  Hold Slack=1.8922
+ 
  Setup Slack=3.8467
  ![image](https://user-images.githubusercontent.com/86367130/124378424-de8ba700-dcce-11eb-8642-cded31265576.png)
  
@@ -683,8 +685,8 @@ Slack MET:
  
 ![image](https://user-images.githubusercontent.com/86367130/124380540-c0c43f00-dcda-11eb-9bc9-eda08500a8ef.png)
  
- Setup Slack=-4.7821
- Hold Slack =0.1472
+ Setup Slack=4.7821
+ Hold Slack =1.922
  
  Clock Skew for Hold=0.39
  Clock Skew for Setup=0.39
