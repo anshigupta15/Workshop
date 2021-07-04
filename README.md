@@ -723,8 +723,35 @@ Slack MET:
  + **<a name="fi-con-2"> Power Distribution Network and Routing
  
  **Generate Power Distribution Network**- gen_pdn
+ 
  Height of the standard cell=2.72=Pitch of power rails
+ 
 ![image](https://user-images.githubusercontent.com/86367130/124381128-688f3c00-dcde-11eb-96e1-5854e91172ab.png)
+ 
+ Power rails from the pads to ring to straps to the standard cell 
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124381297-5d88db80-dcdf-11eb-9807-06da455bf6af.png)
+ 
+         run_routing
+ 
+ Routing is divided into :
+ 
+ ![image](https://user-images.githubusercontent.com/86367130/124381562-d6d4fe00-dce0-11eb-988e-d4f98affc03b.png)
+
+ 
+ Fast or Global Route(Fast Route):Routing region into rectangular grid cells
+ 
+ Detail Route: Triton Route 
+         Realises segments and vias in accordance to global route.
+ 
+ Algorithm to find the best connectivity.
+ 
+ +<a name="fi-con-3"> Triton Route Features
+ 
+ 
+ 
+ 
+
  
 
 
